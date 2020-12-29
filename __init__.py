@@ -24,10 +24,10 @@ from mycroft.skills.core import FallbackSkill, intent_handler
 from adapt.intent import IntentBuilder
 
 
-class AimlFallback(FallbackSkill):
+class WinstonFallback(FallbackSkill):
 
     def __init__(self):
-        super(AimlFallback, self).__init__(name='AimlFallback')
+        super(WinstonFallback, self).__init__(name='AimlFallback')
         self.kernel = aiml.Kernel()
         self.aiml_path = os.path.join(dirname(__file__), 'aiml')
         self.brain_path = os.path.join(self.file_system.path,
@@ -133,8 +133,8 @@ class AimlFallback(FallbackSkill):
             self.kernel.saveBrain(self.brain_path)
             self.kernel.resetBrain()  # Manual remove
         self.remove_fallback(self.handle_fallback)
-        super(AimlFallback, self).shutdown()
+        super(WinstonFallback, self).shutdown()
 
 
 def create_skill():
-    return AimlFallback()
+    return WinstonFallback()
