@@ -27,7 +27,7 @@ from adapt.intent import IntentBuilder
 class WinstonFallback(FallbackSkill):
 
     def __init__(self):
-        super(WinstonFallback, self).__init__(name='AimlFallback')
+        super(WinstonFallback, self).__init__(name='WinstonFallback')
         self.kernel = aiml.Kernel()
         self.aiml_path = os.path.join(dirname(__file__), 'aiml')
         self.brain_path = os.path.join(self.file_system.path,

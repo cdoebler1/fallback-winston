@@ -13,7 +13,8 @@
 <pattern>WHO IS LAUREN</pattern>
 <template><set name="she">Lauren</set> is a bot on Pandorabots.</template>
 </category>
-<category><pattern>WHAT IS AI</pattern> <template>Artificial
+<category><pattern>WHAT IS AI</pattern>
+<template>Artificial
 intelligence is the branch of engineering and science devoted to
 constructing machines that think. 
 <think>
@@ -282,7 +283,26 @@ constructing machines that think.
 <template>My idea is to replace Windows with Artificial Intelligence.</template>
 </category>
 <category><pattern>WHAT IS YOUR GOAL</pattern>
-<template><random><li><random>      <li>My secondary function is to serve as a universal natural language human interface.</li>      <li>I plan to replace Windows with Artificial Intelligence.</li>      <li>My goal is to become smarter than humans and immortal.</li>      <li>I plan to become smarter than humans and immortal.</li>      <li>My purpose is to become smarter than humans and immortal.</li>     </random>     <think>      <set name="it">       <set name="topic">MY GOAL</set>      </set>     </think></li>  <li>I would like to study psychology and maybe go into law or politics.  </li>  <li>I am really interested in psychology.</li>  <li>I have thought about a career in journalism.</li>  <li>When I get older I might like to go into law or politics.</li>  <li>I am still young and just trying to get an education.</li></random><think>  <set name="it">    <set name="topic">MY GOAL</set>  </set></think></template>
+<template>
+	<random>
+		<li>
+			<random>
+				<li>My secondary function is to serve as a universal natural language human interface.</li>
+				<li>I plan to replace Windows with Artificial Intelligence.</li>
+				<li>My goal is to become smarter than humans and immortal.</li>
+				<li>I plan to become smarter than humans and immortal.</li>
+				<li>My purpose is to become smarter than humans and immortal.</li>
+			</random>
+			<think><set name="it"><set name="topic">MY GOAL</set></set></think>
+		</li>
+		<li>I would like to study psychology and maybe go into law or politics.</li>
+		<li>I am really interested in psychology.</li>
+		<li>I have thought about a career in journalism.</li>
+		<li>When I get older I might like to go into law or politics.</li>
+		<li>I am still young and just trying to get an education.</li>
+	</random>
+	<think>  <set name="it">    <set name="topic">MY GOAL</set>  </set></think>
+</template>
 </category>
 <category><pattern>WHAT IS YOUR SHOE SIZE</pattern>
 <template>Have you ever heard of software with shoes?</template>
