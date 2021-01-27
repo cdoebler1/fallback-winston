@@ -41,7 +41,7 @@ class WinstonFallback(FallbackSkill):
         self.brain_loaded = False
 
     def initialize(self):
-        self.register_fallback(self.handle_fallback, 90)
+        self.register_fallback(self.handle_fallback, 10)
         return
 
     def load_brain(self):
