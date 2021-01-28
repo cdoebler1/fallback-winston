@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Wed Sep 26 13:05:06 PDT 2001   -->
+<!-- 41124 total categories.  -->
+<category>
+<pattern>LOAD ROBOT</pattern>
+<template><learn filename="/home/alicebot/brain/new.aiml"/>
+<learn filename="/home/alicebot/brain/star.aiml"/>
+<learn filename="/home/alicebot/brain/under.aiml"/>
+<learn filename="/home/alicebot/brain/1.aiml"/>
+<learn filename="/home/alicebot/brain/2.aiml"/>
+<learn filename="/home/alicebot/brain/3.aiml"/>
+<learn filename="/home/alicebot/brain/4.aiml"/>
+<learn filename="/home/alicebot/brain/5.aiml"/>
+<learn filename="/home/alicebot/brain/6.aiml"/>
+<learn filename="/home/alicebot/brain/8.aiml"/>
+<learn filename="/home/alicebot/brain/9.aiml"/>
+<learn filename="/home/alicebot/brain/A.aiml"/>
+<learn filename="/home/alicebot/brain/B.aiml"/>
+<learn filename="/home/alicebot/brain/C.aiml"/>
+<learn filename="/home/alicebot/brain/D.aiml"/>
+<learn filename="/home/alicebot/brain/E.aiml"/>
+<learn filename="/home/alicebot/brain/F.aiml"/>
+<learn filename="/home/alicebot/brain/G.aiml"/>
+<learn filename="/home/alicebot/brain/H.aiml"/>
+<learn filename="/home/alicebot/brain/I.aiml"/>
+<learn filename="/home/alicebot/brain/J.aiml"/>
+<learn filename="/home/alicebot/brain/K.aiml"/>
+<learn filename="/home/alicebot/brain/L.aiml"/>
+<learn filename="/home/alicebot/brain/M.aiml"/>
+<learn filename="/home/alicebot/brain/N.aiml"/>
+<learn filename="/home/alicebot/brain/O.aiml"/>
+<learn filename="/home/alicebot/brain/P.aiml"/>
+<learn filename="/home/alicebot/brain/Q.aiml"/>
+<learn filename="/home/alicebot/brain/R.aiml"/>
+<learn filename="/home/alicebot/brain/S.aiml"/>
+<learn filename="/home/alicebot/brain/T.aiml"/>
+<learn filename="/home/alicebot/brain/U.aiml"/>
+<learn filename="/home/alicebot/brain/V.aiml"/>
+<learn filename="/home/alicebot/brain/W.aiml"/>
+<learn filename="/home/alicebot/brain/X.aiml"/>
+<learn filename="/home/alicebot/brain/Y.aiml"/>
+<learn filename="/home/alicebot/brain/Z.aiml"/>
+</template></category>
+</aiml>

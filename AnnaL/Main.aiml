@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+<!-- Free software (c) 2001 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- A.L.I.C.E. Build Sat Sep 22 11:59:05 PDT 2001   -->
+<!-- 41002 total categories.  -->
+<category>
+<pattern>LOAD ROBOT</pattern>
+<template>
+<learn filename="brain\\star.aiml"/>
+<learn filename="brain\\under.aiml"/>
+<learn filename="brain\\1.aiml"/>
+<learn filename="brain\\2.aiml"/>
+<learn filename="brain\\3.aiml"/>
+<learn filename="brain\\4.aiml"/>
+<learn filename="brain\\5.aiml"/>
+<learn filename="brain\\6.aiml"/>
+<learn filename="brain\\8.aiml"/>
+<learn filename="brain\\9.aiml"/>
+<learn filename="brain\\A.aiml"/>
+<learn filename="brain\\B.aiml"/>
+<learn filename="brain\\C.aiml"/>
+<learn filename="brain\\D.aiml"/>
+<learn filename="brain\\E.aiml"/>
+<learn filename="brain\\F.aiml"/>
+<learn filename="brain\\G.aiml"/>
+<learn filename="brain\\H.aiml"/>
+<learn filename="brain\\I.aiml"/>
+<learn filename="brain\\J.aiml"/>
+<learn filename="brain\\K.aiml"/>
+<learn filename="brain\\L.aiml"/>
+<learn filename="brain\\M.aiml"/>
+<learn filename="brain\\N.aiml"/>
+<learn filename="brain\\O.aiml"/>
+<learn filename="brain\\P.aiml"/>
+<learn filename="brain\\Q.aiml"/>
+<learn filename="brain\\R.aiml"/>
+<learn filename="brain\\S.aiml"/>
+<learn filename="brain\\T.aiml"/>
+<learn filename="brain\\U.aiml"/>
+<learn filename="brain\\V.aiml"/>
+<learn filename="brain\\W.aiml"/>
+<learn filename="brain\\X.aiml"/>
+<learn filename="brain\\Y.aiml"/>
+<learn filename="brain\\Z.aiml"/>
+</template></category>
+</aiml>
