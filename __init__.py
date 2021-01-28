@@ -73,7 +73,7 @@ class WinstonFallback(FallbackSkill):
         self.kernel.setBotPredicate("master", "the community")
         # IDEA: extract age from
         # https://api.github.com/repos/MycroftAI/mycroft-core created_at date
-        self.kernel.setBotPredicate("age", "2")
+        self.kernel.setBotPredicate("age", "20")
 
         self.brain_loaded = True
         return
