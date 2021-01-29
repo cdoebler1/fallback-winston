@@ -29,7 +29,9 @@ class WinstonFallback(FallbackSkill):
     def __init__(self):
         super(WinstonFallback, self).__init__(name='WinstonFallback')
         self.kernel = aiml.Kernel()
-        self.aiml_path = os.path.join(dirname(__file__), 'aiml')
+        chatbot_brain = self.settings.get('chatbot_brain')
+        self.aiml_path = os.path.join(dirname(__file__), chatbot_brain)
+#        self.aiml_path = os.path.join(dirname(__file__), 'aiml')
         self.brain_path = os.path.join(self.file_system.path,
                                        'bot_brain.brn')
         # reloading skills will also reset this 'timer', so ideally it should
