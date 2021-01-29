@@ -1,0 +1,20 @@
+name: Winston Chatbot
+skillMetadata:
+  sections:
+    - name: Select a Chatbot
+      fields:
+        - type: label
+          label: Set a religious preference for the AI
+          name: chatbot_brain
+          type: select
+          label: Botbrain
+          options: Alice|alice;Anna|anna;AnnaL|annal
+          value: alice
+        - type: checkbox
+          label: Enable chatbot as fallback skill
+          name: enabled
+          value: false
+        - type: input
+          label: Number of chat lines before saving brain state
+          name: save_loop_threshold
+          value: 5
