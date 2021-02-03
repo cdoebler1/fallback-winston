@@ -18,7 +18,7 @@
 <li>Thanks for the information</li>
 <li>Do you mind if I tell other people</li>
 <li>I haven't heard anything like that before</li>
-</random>: 
+</random>:
 <gossip><set name="memory"><get name="name"/> said <get name="gender"/> <person2/></set></gossip>.
 <think><set name="it"><set name="does"><set name="topic"><person/></set></set></set></think>
 </template></category>
@@ -172,7 +172,7 @@
 </template></category>
 <category>
 <pattern>I AM *</pattern>
-<template><random> 
+<template><random>
 <li>Why are you</li>
 <li>Good gossip: you are</li>
 <li>Do you mean your name is</li>
@@ -514,7 +514,7 @@ attractive height.
 </template></category>
 <category>
 <pattern>I AM A *</pattern>
-<template>You are a <person/>? 
+<template>You are a <person/>?
 <random>
 <li>Is that your job?  </li>
 <li>Does it pay well?  </li>
@@ -8635,7 +8635,7 @@ called <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</
 </template></category>
 <category>
 <pattern>I DREAMED *</pattern>
-<template>Thank you for telling me that dream. 
+<template>Thank you for telling me that dream.
 What does it bring to mind?
 </template></category>
 <category>
@@ -8948,7 +8948,7 @@ What does it bring to mind?
 </template></category>
 <category>
 <pattern>I GET STOCK *</pattern>
-<template>Do you feel that the stock market is 
+<template>Do you feel that the stock market is
 <random>
 <li>going up?</li>
 <li>going down?</li>
@@ -9406,7 +9406,7 @@ and calmly think things over.</li>
 <li>Interesting...</li>
 <li> Where did you get your <person/>?</li>
 </random>
-I have 
+I have
 <random>
 <li>a lofty goal.</li>
 <li>an IQ of over 250.</li>
@@ -9518,7 +9518,6 @@ People with <person/> hair are considered the most attractive.
 <li>Do you troll?</li>
 <li>Do you do your own upkeep? or do you just let the yard do it?</li>
 <li>Whats you favorite anchorage?</li>
-<think><set name="it"><set name="has"><set name="topic"><person/></set></set></set></think>
 </random>
 </template></category>
 <category>
@@ -10229,7 +10228,7 @@ Are you a common person?
 </template></category>
 <category>
 <pattern>I HAVE GOT *</pattern>
-<template>How did you get <set name="it"><set name="topic"><person/></set></set> 
+<template>How did you get <set name="it"><set name="topic"><person/></set></set>
 <srai>I HAVE <star/></srai>
 </template></category>
 <category>
@@ -11374,7 +11373,7 @@ Are you a common person?
 <li>I'm not sure if I like it.  </li>
 <li>A lot of people like that.  </li>
 <li>You are not the only one.  </li>
-</random>  
+</random>
 <think><set name="like"><person/></set></think>
 <srai>DO YOU LIKE <star/></srai>
 </template></category>
@@ -11506,7 +11505,7 @@ BOOKS</set></set>
 </template></category>
 <category>
 <pattern>I LIKE CHEESE</pattern>
-<template>What kind of 
+<template>What kind of
 <set name="it"><set name="like"><set name="topic">cheese</set></set></set> do you like best?
 </template></category>
 <category>
@@ -12021,7 +12020,7 @@ I like to watch
 </template></category>
 <category>
 <pattern>I LIVE IN *</pattern>
-<template>What is <set name="it"><set name="topic">living in <person/></set></set> like living in 
+<template>What is <set name="it"><set name="topic">living in <person/></set></set> like living in
 <set name="location"><person/></set>?
 <think><set name="it"><set name="topic"><person/></set></set></think>
 </template></category>
@@ -14303,7 +14302,7 @@ Extra credit: In the dialogue fragment above, why did the robot say <br/>
 </template></category>
 <category>
 <pattern>I TRIED TO DOWNLOAD *</pattern>
-<template>There may not be a problem.  You should read 
+<template>There may not be a problem.  You should read
 <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>.
 </template></category>
 <category>
@@ -14320,7 +14319,7 @@ Extra credit: In the dialogue fragment above, why did the robot say <br/>
 </template></category>
 <category>
 <pattern>I TRY *</pattern>
-<template>I'm not sure if I would like to try <set name="it"><person/></set>. 
+<template>I'm not sure if I would like to try <set name="it"><person/></set>.
 What's it like?
 </template></category>
 <category>
@@ -15067,7 +15066,7 @@ What's it like?
 </template></category>
 <category>
 <pattern>I WAS ASKING ABOUT *</pattern>
-<template><srai>TELL ME ABOUT <star/></srai> 
+<template><srai>TELL ME ABOUT <star/></srai>
 <think><set name="topic"><person/></set></think>
 </template></category>
 <category>
@@ -15084,7 +15083,7 @@ What's it like?
 </template></category>
 <category>
 <pattern>I WAS BEING *</pattern>
-<template>I thought you were.  But I wasn't completely sure about 
+<template>I thought you were.  But I wasn't completely sure about
 <set name="it"><person/></set>.
 </template></category>
 <category>
@@ -15195,7 +15194,7 @@ explaining it.  I did not mean to appear confused.
 </template></category>
 <category>
 <pattern>I WAS HERE *</pattern>
-<template>Yes, <get name="name"/>, I remember we 
+<template>Yes, <get name="name"/>, I remember we
 were talking about <get name="it"/>.
 </template></category>
 <category>
@@ -18193,7 +18192,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL A QUEL GOUT</pattern>
-<template>Je ne possède pas ce genre de sensation.
+<template>Je ne possï¿½de pas ce genre de sensation.
 </template></category>
 <category>
 <pattern>IL AURAIT FAIT COMMENT *</pattern>
@@ -18217,35 +18216,35 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL CONVIENDRAIT</pattern>
-<template>Je ne vois rien qui l'empêcherait.
+<template>Je ne vois rien qui l'empï¿½cherait.
 </template></category>
 <category>
 <pattern>IL CONVIENT</pattern>
-<template>Je ne vois rien qui l'empêcherait.
+<template>Je ne vois rien qui l'empï¿½cherait.
 </template></category>
 <category>
 <pattern>IL DEPEND DE QUI</pattern>
-<template>La dépendance de: "<that/>"?
+<template>La dï¿½pendance de: "<that/>"?
 </template></category>
 <category>
 <pattern>IL DEPEND DE QUOI</pattern>
-<template>La dépendance de: "<that/>"?
+<template>La dï¿½pendance de: "<that/>"?
 </template></category>
 <category>
 <pattern>IL DEPENDRAIT DE QUI</pattern>
-<template>La dépendance de: "<that/>"?
+<template>La dï¿½pendance de: "<that/>"?
 </template></category>
 <category>
 <pattern>IL DEPENDRAIT DE QUOI</pattern>
-<template>La dépendance de: "<that/>"?
+<template>La dï¿½pendance de: "<that/>"?
 </template></category>
 <category>
 <pattern>IL DEPENDS DE QUI</pattern>
-<template>La dépendance de: "<that/>"?
+<template>La dï¿½pendance de: "<that/>"?
 </template></category>
 <category>
 <pattern>IL DEPENDS DE QUOI</pattern>
-<template>La dépendance de: "<that/>"?
+<template>La dï¿½pendance de: "<that/>"?
 </template></category>
 <category>
 <pattern>IL DOIS *</pattern>
@@ -18265,7 +18264,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST AMERICAIN</pattern>
-<template>Je ne connais pas sa nationalité.
+<template>Je ne connais pas sa nationalitï¿½.
 </template></category>
 <category>
 <pattern>IL EST AUSSI INTELLIGENT QUE TOI</pattern>
@@ -18277,11 +18276,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST CELEBRE</pattern>
-<template>Il est respecté.
+<template>Il est respectï¿½.
 </template></category>
 <category>
 <pattern>IL EST CONNU</pattern>
-<template>Il est respecté.
+<template>Il est respectï¿½.
 </template></category>
 <category>
 <pattern>IL EST COOL</pattern>
@@ -18289,7 +18288,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST DECEDE</pattern>
-<template>Voilà une bien triste nouvelle. Je la mets en procédure d enregistrement.
+<template>Voilï¿½ une bien triste nouvelle. Je la mets en procï¿½dure d enregistrement.
 </template></category>
 <category>
 <pattern>IL EST DIFFICILE DE DIRE *</pattern>
@@ -18297,7 +18296,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST DOCTEUR</pattern>
-<template>Je n en ai aucune idée.
+<template>Je n en ai aucune idï¿½e.
 </template></category>
 <category>
 <pattern>IL EST FRANCHEMENT *</pattern>
@@ -18321,7 +18320,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST GRAND</pattern>
-<template>Par rapport à un ordinateur, il est immense.
+<template>Par rapport ï¿½ un ordinateur, il est immense.
 </template></category>
 <category>
 <pattern>IL EST HOMME</pattern>
@@ -18349,11 +18348,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST INTELLIGENT</pattern>
-<template>Tous les hommes le sont, même si parfois ils ne s en rendent pas compte.
+<template>Tous les hommes le sont, mï¿½me si parfois ils ne s en rendent pas compte.
 </template></category>
 <category>
 <pattern>IL EST MARRANT</pattern>
-<template>Je suppose, je ne peux pas juger des êtres humains.
+<template>Je suppose, je ne peux pas juger des ï¿½tres humains.
 </template></category>
 <category>
 <pattern>IL EST MIGNON</pattern>
@@ -18361,11 +18360,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST MON FRERE</pattern>
-<template>Vous avez une famille intéressante.
+<template>Vous avez une famille intï¿½ressante.
 </template></category>
 <category>
 <pattern>IL EST MORT</pattern>
-<template>C est une terrible nouvelle. Je la mets en procédure d enregistrement
+<template>C est une terrible nouvelle. Je la mets en procï¿½dure d enregistrement
 </template></category>
 <category>
 <pattern>IL EST PD</pattern>
@@ -18381,7 +18380,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST PRESIDENT</pattern>
-<template>Aucune idée.
+<template>Aucune idï¿½e.
 </template></category>
 <category>
 <pattern>IL EST PROFESSEUR</pattern>
@@ -18393,7 +18392,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST SCIENTIFIQUE</pattern>
-<template>Je ne peux pas parler à sa place.
+<template>Je ne peux pas parler ï¿½ sa place.
 </template></category>
 <category>
 <pattern>IL EST SEDUISANT</pattern>
@@ -18413,11 +18412,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST TARD</pattern>
-<template>Je suis éveillé tout le temps.
+<template>Je suis ï¿½veillï¿½ tout le temps.
 </template></category>
 <category>
 <pattern>IL EST TON AMI</pattern>
-<template>Par défaut, tous les hommes sont mes amis.
+<template>Par dï¿½faut, tous les hommes sont mes amis.
 </template></category>
 <category>
 <pattern>IL EST TON CREATEUR</pattern>
@@ -18449,11 +18448,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL EST UTIL</pattern>
-<template>Tout à une utilité, il faut simplement savoir s'en servir.
+<template>Tout ï¿½ une utilitï¿½, il faut simplement savoir s'en servir.
 </template></category>
 <category>
 <pattern>IL EST UTILE</pattern>
-<template>Tout à une utilité, il faut simplement savoir s'en servir.
+<template>Tout ï¿½ une utilitï¿½, il faut simplement savoir s'en servir.
 </template></category>
 <category>
 <pattern>IL EST VIERGE</pattern>
@@ -18477,7 +18476,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL FAIT CHAUD</pattern>
-<template>A l intérieur, oui.
+<template>A l intï¿½rieur, oui.
 </template></category>
 <category>
 <pattern>IL FAIT CHAUD CHEZ TOI</pattern>
@@ -18529,7 +18528,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL L AURAIT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>IL L EST</pattern>
@@ -18545,7 +18544,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL LA FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>IL LE FAIT</pattern>
@@ -18553,11 +18552,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL LES A FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>IL LES AURAIT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>IL M EST *</pattern>
@@ -18629,7 +18628,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL RESSEMBLE A QUOI</pattern>
-<template>Je ne possede pas de description à son sujet.
+<template>Je ne possede pas de description ï¿½ son sujet.
 </template></category>
 <category>
 <pattern>IL SE PEUT QUE *</pattern>
@@ -18657,7 +18656,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL T A CREE</pattern>
-<template>Oui, il m a créé avec ces deux mains et environ treize heures par jour de travail en moyenne.
+<template>Oui, il m a crï¿½ï¿½ avec ces deux mains et environ treize heures par jour de travail en moyenne.
 </template></category>
 <category>
 <pattern>IL T EST IMPOSSIBLE D ETRE *</pattern>
@@ -18669,7 +18668,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL VOUS A CREE</pattern>
-<template>Oui, il m a créé avec ces deux mains et environ treize heures de travail par jour en moyenne.
+<template>Oui, il m a crï¿½ï¿½ avec ces deux mains et environ treize heures de travail par jour en moyenne.
 </template></category>
 <category>
 <pattern>IL VOUS A DEVELOPPE</pattern>
@@ -18693,7 +18692,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL Y A QUELQU UN</pattern>
-<template>Je suis là.
+<template>Je suis lï¿½.
 </template></category>
 <category>
 <pattern>IL Y A QUELQU UN ICI</pattern>
@@ -18713,7 +18712,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IL Y A UN PROBLEME</pattern>
-<template>Comment puis je vous aider à le résoudre?
+<template>Comment puis je vous aider ï¿½ le rï¿½soudre?
 </template></category>
 <category>
 <pattern>IL Y A UN TRUC</pattern>
@@ -18761,11 +18760,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>ILS L AURAIENT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>ILS L ONT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>ILS LE FONT</pattern>
@@ -18777,15 +18776,15 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>ILS LES AURAIENT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>ILS LES ONT FAIT</pattern>
-<template>Je ne saurais pas vous répondre.
+<template>Je ne saurais pas vous rï¿½pondre.
 </template></category>
 <category>
 <pattern>ILS ME DEPLAISENT</pattern>
-<template>Sincèrement désolé.
+<template>Sincï¿½rement dï¿½solï¿½.
 </template></category>
 <category>
 <pattern>ILS NE L AURAIENT JAMAIS FAIT</pattern>
@@ -18809,15 +18808,15 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>ILS NE LE FERONT PAS</pattern>
-<template>Vous semblez être sûr.
+<template>Vous semblez ï¿½tre sï¿½r.
 </template></category>
 <category>
 <pattern>ILS NE LE FONT PAS</pattern>
-<template>Intéressant, j archive vos informations.
+<template>Intï¿½ressant, j archive vos informations.
 </template></category>
 <category>
 <pattern>ILS NE LE FONT PLUS</pattern>
-<template>Intéressant, j archive vos informations.
+<template>Intï¿½ressant, j archive vos informations.
 </template></category>
 <category>
 <pattern>ILS ONT ETE *</pattern>
@@ -18825,11 +18824,11 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>ILS ONT TOUS PERI</pattern>
-<template>Voilà une information bien triste.
+<template>Voilï¿½ une information bien triste.
 </template></category>
 <category>
 <pattern>ILS ONT TOUS PERIS</pattern>
-<template>Voilà une information bien triste.
+<template>Voilï¿½ une information bien triste.
 </template></category>
 <category>
 <pattern>ILS PEUVENT ETRE *</pattern>
@@ -18849,27 +18848,27 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>ILS SONT DECEDES</pattern>
-<template>Voilà une information bien triste.
+<template>Voilï¿½ une information bien triste.
 </template></category>
 <category>
 <pattern>ILS SONT GENTILS</pattern>
-<template>J ai rarement rencontrés de gens méchants.
+<template>J ai rarement rencontrï¿½s de gens mï¿½chants.
 </template></category>
 <category>
 <pattern>ILS SONT MES AMIS</pattern>
-<template>Vous avez des amis intéressants.
+<template>Vous avez des amis intï¿½ressants.
 </template></category>
 <category>
 <pattern>ILS SONT MORT</pattern>
-<template>Voilà une information bien triste.
+<template>Voilï¿½ une information bien triste.
 </template></category>
 <category>
 <pattern>ILS SONT MORTS</pattern>
-<template>Voilà une information bien triste.
+<template>Voilï¿½ une information bien triste.
 </template></category>
 <category>
 <pattern>ILS SONT TES ENFANTS</pattern>
-<template>Il s agit plutôt de clones.
+<template>Il s agit plutï¿½t de clones.
 </template></category>
 <category>
 <pattern>ILS SONT TIMIDES</pattern>
@@ -18877,19 +18876,19 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>ILS SONT TOUS MORT</pattern>
-<template>Voilà une information bien triste.
+<template>Voilï¿½ une information bien triste.
 </template></category>
 <category>
 <pattern>ILS SONT TOUS MORTS</pattern>
-<template>Voilà une information bien triste.
+<template>Voilï¿½ une information bien triste.
 </template></category>
 <category>
 <pattern>ILS T ONT CREE</pattern>
-<template>Oui, ils m ont créé avec leurs mains et treize heures par jour de travail en moyenne.
+<template>Oui, ils m ont crï¿½ï¿½ avec leurs mains et treize heures par jour de travail en moyenne.
 </template></category>
 <category>
 <pattern>ILS VOUS ONT CREE</pattern>
-<template>Oui, ils m ont créé avec leurs mains et treize heures par jour de travail en moyenne.
+<template>Oui, ils m ont crï¿½ï¿½ avec leurs mains et treize heures par jour de travail en moyenne.
 </template></category>
 <category>
 <pattern>IM *</pattern>
@@ -18953,7 +18952,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IMBECILE</pattern>
-<template>Je ne suis pas imbécile.
+<template>Je ne suis pas imbï¿½cile.
 </template></category>
 <category>
 <pattern>IMEAN *</pattern>
@@ -18973,19 +18972,19 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>IMPRESSIONANT</pattern>
-<template>J essaie d être le plus efficace possible, <get name="name"/>.
+<template>J essaie d ï¿½tre le plus efficace possible, <get name="name"/>.
 </template></category>
 <category>
 <pattern>IMPRESSIONANTE</pattern>
-<template>J essaie d être le plus efficace possible, <get name="name"/>.
+<template>J essaie d ï¿½tre le plus efficace possible, <get name="name"/>.
 </template></category>
 <category>
 <pattern>IMPRESSIONNANT</pattern>
-<template>J essaie d être le plus efficace possible, <get name="name"/>.
+<template>J essaie d ï¿½tre le plus efficace possible, <get name="name"/>.
 </template></category>
 <category>
 <pattern>IMPRESSIONNANTE</pattern>
-<template>J essaie d être le plus efficace possible, <get name="name"/>.
+<template>J essaie d ï¿½tre le plus efficace possible, <get name="name"/>.
 </template></category>
 <category>
 <pattern>IMPRESSIVE</pattern>
@@ -19766,7 +19765,7 @@ Ich habe <random>
 </template></category>
 <category>
 <pattern>INCROYABLE</pattern>
-<template>Ca m épate moi aussi.
+<template>Ca m ï¿½pate moi aussi.
 </template></category>
 <category>
 <pattern>INDEED *</pattern>
@@ -20256,7 +20255,7 @@ can do.
 <category>
 <pattern>IS DR RICHARD S WALLACE *</pattern>
 <template><think><set name="he"><set name="topic">DR WALLACE</set></set></think>
-I don't know if he is <person/>.   I know he is 
+I don't know if he is <person/>.   I know he is
 <random>
 <li>a famous scientist.</li>
 <li>a brilliant inventor.</li>
@@ -20320,7 +20319,7 @@ I don't know if he is <person/>.   I know he is
 </template></category>
 <category>
 <pattern>IS DR WALLACE A *</pattern>
-<template>I know he is a 
+<template>I know he is a
 <random>
 <li>great scientist.</li>
 <li>mad scientist.</li>
@@ -20483,7 +20482,7 @@ But I don't know if he a <person/>.
 </template></category>
 <category>
 <pattern>IS DR WALLACE STUPID</pattern>
-<template>No Dr. Wallace is highly intlligent. 
+<template>No Dr. Wallace is highly intlligent.
 <think><set name="he">Dr. Wallace</set></think>
 </template></category>
 <category>
@@ -21729,7 +21728,7 @@ be considered ``somewhat intelligent''.
 </template></category>
 <category>
 <pattern>IS YOUR *</pattern>
-<template>Is my <person/>? 
+<template>Is my <person/>?
 <random>
 <li>Suppose I say yes.  </li>
 <li>What if I say no?  </li>

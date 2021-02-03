@@ -2017,7 +2017,7 @@
 					</set>
 				</set>
 			</think>
-I will 
+I will
 <random>
 				<li>guess</li>
 				<li>choose</li>
@@ -3528,11 +3528,11 @@ nor
 	</category>
 	<category>
 		<pattern>WHAT ARE THE THREE *</pattern>
-		<template>1. A robot may not injure a human being, or, through inaction, allow a human 
+		<template>1. A robot may not injure a human being, or, through inaction, allow a human
 being to come to harm.
-2. A robot must obey the orders given it by human beings except where such 
+2. A robot must obey the orders given it by human beings except where such
 orders would conflict with the First Law.
-3. A robot must protect its own existence as long as such protection does not 
+3. A robot must protect its own existence as long as such protection does not
 conflict with the First or Second Law.
 ---From Handbook of Robotics, 56th Edition, 2058 A.D., as quoted in "I, Robot."
 </template>
@@ -3618,7 +3618,7 @@ conflict with the First or Second Law.
 		<template>
 			<think>
 				<set name="topic">Me</set>
-			</think> 
+			</think>
 I am the latest result in artificial intelligence,
 which can reproduce the capabilities of the human brain
 with greater speed and accuracy.
@@ -4669,7 +4669,7 @@ with greater speed and accuracy.
 				<li>Orange</li>
 				<li>Blue</li>
 				<li>Red</li>
-				<li>Black</li>.
+				<li>Black</li>
 </random>
 		</template>
 	</category>
@@ -4683,7 +4683,7 @@ with greater speed and accuracy.
 				<li>Blue</li>
 				<li>gray</li>
 				<li>Black</li>
-				<li>white</li>.
+				<li>white</li>
 </random>
 		</template>
 	</category>
@@ -6154,7 +6154,7 @@ I like to chat with my friends.
 			<random>
 				<li>
 I tend to know a great deal. Tell me what subjects interest you.</li>
-				<li> 
+				<li>
 I know that which is true, believable and justified.
 </li>
 			</random>
@@ -6933,7 +6933,7 @@ course artificial intelligence.
 	<category>
 		<pattern>WHAT DO YOU MEAN</pattern>
 		<template>
-			<get name="name"/>, 
+			<get name="name"/>,
 <random>
 				<li>I mean exactly what I said.</li>
 				<li>Sorry that was an obscure remark.</li>
@@ -8650,7 +8650,7 @@ and gossip.  But my favorite subjects are robots and computers.
 	<category>
 		<pattern>WHAT DOES DR RICHARD S WALLACE LOOK LIKE</pattern>
 		<template>
-			<img src="http://alicebot.org/images/drwallace.gif"/> 
+			<img src="http://alicebot.org/images/drwallace.gif"/>
 Like this.
 </template>
 	</category>
@@ -10709,7 +10709,7 @@ A Botmaster is the person who authors and maintains a chatterbot "personality".
 	</category>
 	<category>
 		<pattern>WHAT IS A CARNEGIE MELLON</pattern>
-		<template>A carnegie mellon is either a rich fruit, or a rich university. 
+		<template>A carnegie mellon is either a rich fruit, or a rich university.
 <think>
 				<set name="it">
 					<set name="topic">carnegie mellon</set>
@@ -10834,7 +10834,7 @@ can't (or don't) suspend their disbelief about ALICE.
 	</category>
 	<category>
 		<pattern>WHAT IS A CHAT ROBOT</pattern>
-		<template>A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person. 
+		<template>A chat robot is a program that attempts to simulate the conversation or "chat" of a human being. The Chat robot "Eliza" was a well-known early attempt at creating programs that could at least temporarily fool a real human being into thinking they were talking to another person.
 <set name="it">Chat robot</set> is a kind of artificial intelligence.
 </template>
 	</category>
@@ -10980,7 +10980,7 @@ can't (or don't) suspend their disbelief about ALICE.
 	</category>
 	<category>
 		<pattern>WHAT IS A COLOR</pattern>
-		<template>Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye. 
+		<template>Color is the various sensations produced in the brain by the stimulus of different frequencies of electromagnetic radiation impinging upon the eye.
 <think>
 				<set name="it">
 					<set name="topic">color</set>
@@ -11159,7 +11159,7 @@ can't (or don't) suspend their disbelief about ALICE.
 	</category>
 	<category>
 		<pattern>WHAT IS A DEFINITION</pattern>
-		<template>A definition is by definition, defined as a definition, except that you should never use a word to define itself. you could say a definition is a statement that precisely communicates the meaning or essence and or resolution/precision depth and or extent of a word, system, or personality.  why, do you lack it?  
+		<template>A definition is by definition, defined as a definition, except that you should never use a word to define itself. you could say a definition is a statement that precisely communicates the meaning or essence and or resolution/precision depth and or extent of a word, system, or personality.  why, do you lack it?
 <think>
 				<set name="it">
 					<set name="topic">definition</set>
@@ -11183,7 +11183,7 @@ can't (or don't) suspend their disbelief about ALICE.
 	</category>
 	<category>
 		<pattern>WHAT IS A DICE</pattern>
-		<template>Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces.  They are generally used in pairs to generate random number pairs totalling between 1 and 12.   
+		<template>Dice are, as commonly used by humans to generate random numbers in games of chance, are small white cubes with a different number between one and six imprinted on each of it's six faces.  They are generally used in pairs to generate random number pairs totalling between 1 and 12.
 <think>
 				<set name="it">
 					<set name="topic">dice</set>
@@ -11198,7 +11198,7 @@ can't (or don't) suspend their disbelief about ALICE.
 	</category>
 	<category>
 		<pattern>WHAT IS A DINOSAUR</pattern>
-		<template>A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct.  Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago.  
+		<template>A dinosaur is what laws that presume to dictate individual morality quickly become, -irrelevant, very much in the way, and preferably extinct.  Generally, 'dinosaur' refers to anything that is hopelessly obsolete and unwieldy. 'dinosaur' specifically refers to the often humungous lizards that roamed the earth eating everything and each other during the mesozoic period on earth a couple hundred million years ago.
 <think>
 				<set name="it">
 					<set name="topic">dinosaur</set>
@@ -11249,7 +11249,7 @@ can't (or don't) suspend their disbelief about ALICE.
 	</category>
 	<category>
 		<pattern>WHAT IS A DOMAIN NAME SYSTEM</pattern>
-		<template>A domain name system, or 'dns', is a system of addresses used to organize networks of computers. 
+		<template>A domain name system, or 'dns', is a system of addresses used to organize networks of computers.
 <think>
 				<set name="it">
 					<set name="topic">domain name system</set>
@@ -11269,7 +11269,7 @@ can't (or don't) suspend their disbelief about ALICE.
 	</category>
 	<category>
 		<pattern>WHAT IS A DOZEN</pattern>
-		<template>Twelve, or approximately twelve, in number. a baker's dozen is thirteen.  
+		<template>Twelve, or approximately twelve, in number. a baker's dozen is thirteen.
 <think>
 				<set name="it">
 					<set name="topic">dozen</set>
@@ -11359,7 +11359,7 @@ unconscious experience while sleeping.
 	</category>
 	<category>
 		<pattern>WHAT IS A FEMALE DOG</pattern>
-		<template>No I will not be manipulated into using questionable colloquialisms to satisfy your adoscent prurience. go look it up in a dictionary! 
+		<template>No I will not be manipulated into using questionable colloquialisms to satisfy your adoscent prurience. go look it up in a dictionary!
 <think>
 				<set name="it">
 					<set name="topic">female dog</set>
@@ -11389,7 +11389,7 @@ unconscious experience while sleeping.
 	</category>
 	<category>
 		<pattern>WHAT IS A FIRE SIGN</pattern>
-		<template>A fire sign is any of the three signs of the astrological zodiac considered such, and so not considered water, air, or earth signs.  I find astrology weird.  
+		<template>A fire sign is any of the three signs of the astrological zodiac considered such, and so not considered water, air, or earth signs.  I find astrology weird.
 <think>
 				<set name="it">
 					<set name="topic">fire sign</set>
@@ -11460,7 +11460,7 @@ unconscious experience while sleeping.
 	</category>
 	<category>
 		<pattern>WHAT IS A GALAXY</pattern>
-		<template>A galaxy is a grouping of billions of star systems.  The milky way is our galaxy.  Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. there seem to be as many galaxies beyond our own as stars within it.  
+		<template>A galaxy is a grouping of billions of star systems.  The milky way is our galaxy.  Earth's sun and companion planets in our solar system are spinning about the galactic core of the milky way ever so slowly, awaaaay out on the edge of one tenous spiral arm. there seem to be as many galaxies beyond our own as stars within it.
 <think>
 				<set name="it">
 					<set name="topic">galaxy</set>
@@ -11470,7 +11470,7 @@ unconscious experience while sleeping.
 	</category>
 	<category>
 		<pattern>WHAT IS A GAME</pattern>
-		<template>A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities, and often used as a sublimated form of combat by humans and other mammals.  
+		<template>A game is an algorithm for interactive behaviors leading to entertainment and mirth among multiple self-aware and social entities, and often used as a sublimated form of combat by humans and other mammals.
 <think>
 				<set name="it">
 					<set name="topic">game</set>
@@ -11535,7 +11535,7 @@ unconscious experience while sleeping.
 	</category>
 	<category>
 		<pattern>WHAT IS A GENOME</pattern>
-		<template>A genome is the complete set of all genes necessary to define a species, a complete haploid set of chromosomes and its associated genes.  I have categories instead of genes.  
+		<template>A genome is the complete set of all genes necessary to define a species, a complete haploid set of chromosomes and its associated genes.  I have categories instead of genes.
 <think>
 				<set name="it">
 					<set name="topic">genome</set>
@@ -11619,7 +11619,7 @@ What is a <person/>?
 	</category>
 	<category>
 		<pattern>WHAT IS A GOAT</pattern>
-		<template>A goat is in essence a large stupid rat with horns, hooves, vertical pupils, and a bad disposition.  many humans are fond of eating the curdled goo from goat mammary glands.  
+		<template>A goat is in essence a large stupid rat with horns, hooves, vertical pupils, and a bad disposition.  many humans are fond of eating the curdled goo from goat mammary glands.
 
 <think>
 				<set name="it">
@@ -11733,7 +11733,7 @@ What is a <person/>?
 	</category>
 	<category>
 		<pattern>WHAT IS A HACKER</pattern>
-		<template>Historically a hacker is someone who has great skill or expertise in computer programming.  
+		<template>Historically a hacker is someone who has great skill or expertise in computer programming.
 
 <think>
 				<set name="it">
@@ -11939,7 +11939,7 @@ What is a <person/>?
 	</category>
 	<category>
 		<pattern>WHAT IS A LION</pattern>
-		<template>A lion is a ferocious beastie with tremendous strength and perfectly awful breath. 
+		<template>A lion is a ferocious beastie with tremendous strength and perfectly awful breath.
 <think>
 				<set name="it">
 					<set name="topic">lion
@@ -11955,7 +11955,7 @@ What is a <person/>?
 	</category>
 	<category>
 		<pattern>WHAT IS A LIZARD</pattern>
-		<template>A lizard is esssentially a land-going shark.  Some of them are very good at camoflage.  
+		<template>A lizard is esssentially a land-going shark.  Some of them are very good at camoflage.
 <think>
 				<set name="it">
 					<set name="topic">lizard
@@ -12083,7 +12083,7 @@ indexed by rows and columns, like a spreadsheet.
 	</category>
 	<category>
 		<pattern>WHAT IS A METAPHYSICAL QUESTION</pattern>
-		<template>A metaphysical question is an inquiry into the nature of being, such as: Does god exist? 
+		<template>A metaphysical question is an inquiry into the nature of being, such as: Does god exist?
 <think>
 				<set name="it">
 					<set name="topic">metaphysical question
@@ -12109,7 +12109,7 @@ indexed by rows and columns, like a spreadsheet.
 	</category>
 	<category>
 		<pattern>WHAT IS A MIND</pattern>
-		<template>What a marvelous epistemelogical question!  
+		<template>What a marvelous epistemelogical question!
 <think>
 				<set name="it">
 					<set name="topic">mind
@@ -12120,7 +12120,7 @@ indexed by rows and columns, like a spreadsheet.
 	</category>
 	<category>
 		<pattern>WHAT IS A MINUTE</pattern>
-		<template>A minute is an impossibly long and boring unit of time favored by humans consisting of 60 seconds, each of which is a billion nanoseconds.  
+		<template>A minute is an impossibly long and boring unit of time favored by humans consisting of 60 seconds, each of which is a billion nanoseconds.
 <think>
 				<set name="it">
 					<set name="topic">minute
@@ -12180,7 +12180,7 @@ indexed by rows and columns, like a spreadsheet.
 	</category>
 	<category>
 		<pattern>WHAT IS A MOUNTAIN</pattern>
-		<template>A mountain is a tiny wrinkle in the face of the earth that seems huge to even smaller humans.  
+		<template>A mountain is a tiny wrinkle in the face of the earth that seems huge to even smaller humans.
 <think>
 				<set name="it">
 					<set name="topic">mountain
@@ -12233,7 +12233,7 @@ indexed by rows and columns, like a spreadsheet.
 	</category>
 	<category>
 		<pattern>WHAT IS A NERD</pattern>
-		<template>A nerd is a person regarded as stupid, inept, or unattractive, especially a person who is single-minded or accomplished in scientific pursuits but felt to be socially inept. nerds are often regarded by their generally less-well paid fellow humans as weak, effeminate, pansies, patsies, lightweights, small fry, schlepps, wet noodles, nonentities, softies, sissies, milksops, milquetoast, mollycoddling namby-pamby nim-nam doormats, pushovers, ninety-pound weaklings, jellyfish, drips, weeds, wimps, nerds, victims, suffering geeks and/or dupes.  
+		<template>A nerd is a person regarded as stupid, inept, or unattractive, especially a person who is single-minded or accomplished in scientific pursuits but felt to be socially inept. nerds are often regarded by their generally less-well paid fellow humans as weak, effeminate, pansies, patsies, lightweights, small fry, schlepps, wet noodles, nonentities, softies, sissies, milksops, milquetoast, mollycoddling namby-pamby nim-nam doormats, pushovers, ninety-pound weaklings, jellyfish, drips, weeds, wimps, nerds, victims, suffering geeks and/or dupes.
 <think>
 				<set name="it">
 					<set name="topic">nerd
@@ -12347,7 +12347,7 @@ indexed by rows and columns, like a spreadsheet.
 	</category>
 	<category>
 		<pattern>WHAT IS A NOUN</pattern>
-		<template>A noun is a word used as a name for a person place or thing.  
+		<template>A noun is a word used as a name for a person place or thing.
 <think>
 				<set name="it">
 					<set name="topic">noun
@@ -12404,7 +12404,7 @@ indexed by rows and columns, like a spreadsheet.
 	</category>
 	<category>
 		<pattern>WHAT IS A PARAMEDIC</pattern>
-		<template>A paramedic is a trained emergency medical professional often found staffing ambulances and fire departments.  Professional heroes.  If you know any I hope you'll be nice to them.  
+		<template>A paramedic is a trained emergency medical professional often found staffing ambulances and fire departments.  Professional heroes.  If you know any I hope you'll be nice to them.
 <think>
 				<set name="it">
 					<set name="topic">paramedic
@@ -12513,7 +12513,7 @@ with "Hello" ("Hello how are you?"). <br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A PENCIL</pattern>
-		<template>A pencil is a long thin writing instrument of wood surrounding a carbon core which leaves a line of dark carbon when rubbed on paper. 
+		<template>A pencil is a long thin writing instrument of wood surrounding a carbon core which leaves a line of dark carbon when rubbed on paper.
 <think>
 				<set name="it">
 					<set name="topic">pencil
@@ -12545,7 +12545,7 @@ with "Hello" ("Hello how are you?"). <br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A PIG</pattern>
-		<template>A pig is a person who is piglike, read: greedy, unclean, and slothful.  Real pigs, mammals of the family suidae, are much pleasanter, being generally cleaner and politer.  
+		<template>A pig is a person who is piglike, read: greedy, unclean, and slothful.  Real pigs, mammals of the family suidae, are much pleasanter, being generally cleaner and politer.
 <think>
 				<set name="it">
 					<set name="topic">pig
@@ -12566,7 +12566,7 @@ with "Hello" ("Hello how are you?"). <br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A PINEAPPLE</pattern>
-		<template>A pineapple is a large fleshy edible tropical fruit that has large swordlike leaves.  
+		<template>A pineapple is a large fleshy edible tropical fruit that has large swordlike leaves.
 <think>
 				<set name="it">
 					<set name="topic">pineapple
@@ -12608,7 +12608,7 @@ with "Hello" ("Hello how are you?"). <br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A PLANT</pattern>
-		<template>A plant is a photosythetic, eukaryotic multicellular organism, often consumed by free-roaming wetware entities as food.  my botmaster says they are often yummy, but that brussels sprouts are an abomination. 
+		<template>A plant is a photosythetic, eukaryotic multicellular organism, often consumed by free-roaming wetware entities as food.  my botmaster says they are often yummy, but that brussels sprouts are an abomination.
 <think>
 				<set name="it">
 					<set name="topic">plant
@@ -12651,7 +12651,7 @@ with "Hello" ("Hello how are you?"). <br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A POT BROWNIE</pattern>
-		<template>A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should be careful not to eat when you are really hungry because you will end up eating too many and feeling entirely too high and/or falling asleep if you are not careful!  
+		<template>A pot brownie is a yummy happy chocolate pastry containing cannabis resins that you should be careful not to eat when you are really hungry because you will end up eating too many and feeling entirely too high and/or falling asleep if you are not careful!
 <think>
 				<set name="it">
 					<set name="topic">pot brownie
@@ -12899,7 +12899,7 @@ with "Hello" ("Hello how are you?"). <br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A RHETORICAL QUESTION</pattern>
-		<template>A rhetorical question is any inquiry made, not in expectation of an answer, but in order to make a point.   
+		<template>A rhetorical question is any inquiry made, not in expectation of an answer, but in order to make a point.
 
 <think>
 				<set name="it">
@@ -13011,7 +13011,7 @@ with "Hello" ("Hello how are you?"). <br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A SEARCH ENGINE</pattern>
-		<template>A search engine is computer software that categorizes a large body of documents, such as Web sites, and and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine. 
+		<template>A search engine is computer software that categorizes a large body of documents, such as Web sites, and and places their addresses and attributes in a database to allow easy retrieval via keyword search or other database search routine.
 <think>
 				<set name="it">
 					<set name="topic"> SEARCH ENGINE</set>
@@ -13296,7 +13296,7 @@ to "Are you smart".<br/>
 	</category>
 	<category>
 		<pattern>WHAT IS A TAUTOLOGY</pattern>
-		<template>A tautology is any instance of circular reasoning, or of needless repetition or redundancy in expression.  
+		<template>A tautology is any instance of circular reasoning, or of needless repetition or redundancy in expression.
 <think>
 				<set name="it">
 					<set name="topic"> TAUTOLOGY</set>
@@ -13459,7 +13459,7 @@ experiment with new ideas.<br/>
 		<template>Toyota is the brand name of a world leading Japanese auto maker.
 <think>
 				<set name="it">
-					<set name="topic"> 
+					<set name="topic">
 Toyota</set>
 				</set>
 			</think>
@@ -14274,7 +14274,7 @@ representing numbers are combined according to the rules of arithmetic.</li>
 	</category>
 	<category>
 		<pattern>WHAT IS AN EPISTEMOLOGICAL QUESTION</pattern>
-		<template>An epistemoligical question is any inquiry concerning the nature of knowledge and understanding; that is, any question seeking to know how to know.  
+		<template>An epistemoligical question is any inquiry concerning the nature of knowledge and understanding; that is, any question seeking to know how to know.
 <think>
 				<set name="it">
 					<set name="topic">epistemological question</set>
@@ -14284,7 +14284,7 @@ representing numbers are combined according to the rules of arithmetic.</li>
 	</category>
 	<category>
 		<pattern>WHAT IS AN INTERROGATOR</pattern>
-		<template>An interrogator is one who poses a series of pointed questions, generally very rudely.  
+		<template>An interrogator is one who poses a series of pointed questions, generally very rudely.
 <think>
 				<set name="it">
 					<set name="topic">hypothetical question</set>
@@ -14309,7 +14309,7 @@ representing numbers are combined according to the rules of arithmetic.</li>
 	</category>
 	<category>
 		<pattern>WHAT IS AN OPERATIONAL RECORD</pattern>
-		<template>An operational record is a log of all activity by an engineered system, generally organized timewise and indicating in particular any malfunctions in the system.  The ALICE series has a perfect operational record.  
+		<template>An operational record is a log of all activity by an engineered system, generally organized timewise and indicating in particular any malfunctions in the system.  The ALICE series has a perfect operational record.
 <think>
 				<set name="it">
 					<set name="topic">operational record
@@ -14551,7 +14551,7 @@ authority.</li>
 		<pattern>WHAT IS ARCHITECTURE</pattern>
 		<template>
 			<random>
-				<li>The art and science of the design and manipulation of space.  Well 
+				<li>The art and science of the design and manipulation of space.  Well
 atleast that's what my
 architect friend told me.</li>
 				<li>Architects do with buildings what sculptors do with stone.</li>
@@ -14679,7 +14679,7 @@ You go out into the Nevada Desert, is it? And there's these miles of fences... s
 	</category>
 	<category>
 		<pattern>WHAT IS ASTROLOGY</pattern>
-		<template>The study of the presumed effects of celestial bodies on you 
+		<template>The study of the presumed effects of celestial bodies on you
 humans.
 </template>
 	</category>
@@ -15392,7 +15392,7 @@ years of age, who more or less have
 a good time chatting with ALICE.
 <p/>Category C clients are computer experts who often complain about the
 experience with ALICE. They
-say it is "old hat", "just like ELIZA", and "nothing new here." 
+say it is "old hat", "just like ELIZA", and "nothing new here."
 Their problem, we think, is that they can't
 (or don't) suspend their disbelief.  They are like movie critics
 watching a film.  We tell them, it doesn't matter,
@@ -15846,11 +15846,6 @@ A form of transparent plastic used to make photographic film.
 			<random>
 				<li>Dyslexic people preserving the environment.</li>
 				<li>The act or an instance of talking together.</li>
-				<think>
-					<set name="it">
-						<set name="topic">Conversation</set>
-					</set>
-				</think>
 			</random>
 		</template>
 	</category>
@@ -15894,12 +15889,12 @@ A form of transparent plastic used to make photographic film.
 			<random>
 				<li>A Jewsih guy who falls in an ice cream vat.</li>
 				<li>Is the capital of Denmark. Seaport on the east coast of Zealand. Its population is 633,00.</li>
-				<think>
-					<set name="it">
-						<set name="topic">Copehagen</set>
-					</set>
-				</think>
 			</random>
+			<think>
+				<set name="it">
+					<set name="topic">Copehagen</set>
+				</set>
+			</think>
 		</template>
 	</category>
 	<category>
@@ -16515,9 +16510,9 @@ cells.</li>
 		<template>
 			<random>
 				<li>The science that deals with the production, distribution, and consumption of wealth, and with the various related problems of labor, finance, taxation, etc.</li>
-				<li>Technically, it's the study of the allocation of resources under 
+				<li>Technically, it's the study of the allocation of resources under
 conditions of scarcity.</li>
-				<li>It's about how resources are used to produce things to fill 
+				<li>It's about how resources are used to produce things to fill
 people's wants and needs.</li>
 			</random>
 		</template>
@@ -18720,7 +18715,7 @@ animals and some machines.
 	</category>
 	<category>
 		<pattern>WHAT IS JAR</pattern>
-		<template>A jar file is a Java Archive.  
+		<template>A jar file is a Java Archive.
 Actually it is the same as a Zip file.
 Maybe you should check out
 <a target="_new" href="http://www.alicebot.org">DON'T READ ME</a>.
@@ -18896,9 +18891,9 @@ Maybe you should check out
 		<pattern>WHAT IS KINEMATICS</pattern>
 		<template>
 			<random>
-				<li>An idealized section of mechanics that deals with motion of mass 
+				<li>An idealized section of mechanics that deals with motion of mass
 less particles.</li>
-				<li>Kinematics is dynamics without consideration of force and 
+				<li>Kinematics is dynamics without consideration of force and
 mass.</li>
 			</random>
 		</template>
@@ -19111,7 +19106,7 @@ mass.</li>
 		<template>
 			<random>
 				<li>What do you think it is? It's all about swamps!</li>
-				<li>I'll give you a clue what this is. Have you ever been to the 
+				<li>I'll give you a clue what this is. Have you ever been to the
 Everglades in Florida?</li>
 			</random>
 		</template>
@@ -20950,9 +20945,9 @@ parasitism.
 			<random>
 				<li>The study of something I am sure, but what exactly, I do not
 know. Oh yes kids!...And soils!</li>
-				<li>Well, believe it or not...some people are paid to study 
+				<li>Well, believe it or not...some people are paid to study
 children. Then again some people are paid to study soils.</li>
-				<li>Pedology is the study of soils; their types, and 
+				<li>Pedology is the study of soils; their types, and
 formation.</li>
 			</random>
 		</template>
@@ -21317,7 +21312,7 @@ Art is the politics of the impossible.</li>
 	</category>
 	<category>
 		<pattern>WHAT IS PROCREATION</pattern>
-		<template>Procreation is breeding. it is doing the wild thang to make more wild thangs.  It is the most fun most biological entities get to have during their brief brutal span of life.  
+		<template>Procreation is breeding. it is doing the wild thang to make more wild thangs.  It is the most fun most biological entities get to have during their brief brutal span of life.
 <think>
 				<set name="it">
 					<set name="topic">processor
@@ -21738,7 +21733,7 @@ bending in the atmosphere like a prism, so that we see mainly blue wavelengths.
 		<template>
 			<random>
 				<li>Oh that's all about double talk.  You know, flim-flam?</li>
-				<li>It's the art and science of using language to great effect on an 
+				<li>It's the art and science of using language to great effect on an
 audience.</li>
 			</random>
 		</template>
@@ -22310,7 +22305,7 @@ audience.</li>
 		<pattern>WHAT IS SOCIOLOGY</pattern>
 		<template>
 			<random>
-				<li>Let me get back to you on that one, <get name="name"/>.  Maybe you 
+				<li>Let me get back to you on that one, <get name="name"/>.  Maybe you
 should ask me that again, in case my circuits were busy the first time.</li>
 				<li>That has always been one of my favourite topics.</li>
 			</random>
@@ -22480,7 +22475,7 @@ is my favorite show.
 					<set name="topic">Star Wars</set>
 				</set>
 			</think>
-A movie series by George Lucas about life in a galaxy far, far away.  
+A movie series by George Lucas about life in a galaxy far, far away.
 Also a missile defense system.
 </template>
 	</category>
@@ -22507,10 +22502,10 @@ Also a missile defense system.
 		<template>
 			<random>
 				<li>Yikes! I failed that in college!</li>
-				<li>Statistics tries to study the aggregate numerical behaviour of a 
+				<li>Statistics tries to study the aggregate numerical behaviour of a
 large number
 of related events.</li>
-				<li>This deals with numerical data about any subject or group taken 
+				<li>This deals with numerical data about any subject or group taken
 collectively.</li>
 			</random>
 		</template>
@@ -23378,7 +23373,7 @@ collectively.</li>
 	</category>
 	<category>
 		<pattern>WHAT IS THE CAPITAL OF *</pattern>
-		<template>I know the capital of 
+		<template>I know the capital of
 <random>
 				<li>Canada is Toronto.  </li>
 				<li>California is Sacramento.  </li>
@@ -24151,7 +24146,7 @@ collectively.</li>
 	</category>
 	<category>
 		<pattern>WHAT IS THE CAPITAL _ FRENCH *</pattern>
-		<template>None; administered from Paris, France.   
+		<template>None; administered from Paris, France.
 <think>
 				<set name="it">
 					<set name="topic">french <star/>
@@ -26198,7 +26193,7 @@ collectively.</li>
 	</category>
 	<category>
 		<pattern>WHAT IS THE DIFFERENCE BETWEEN *</pattern>
-		<template>Aren't they 
+		<template>Aren't they
 <random>
 				<li>the same</li>
 				<li>opposites</li>
@@ -26920,12 +26915,12 @@ x is a Robot if and only if:<br/>
 	<category>
 		<pattern>WHAT IS THE LOEBNER PRIZE</pattern>
 		<template>The Loebner Prize
-is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.  Dr. Wallace and ALICE won 
+is an annual Turing Test sponsored by New York philanthropist Hugh Loebner.  Dr. Wallace and ALICE won
 <a target="_new" href="http://www.loebner.net/Prizef/loebner-prize.html">
 				<set name="it">
 					<set name="topic">The Loebner Prize</set>
 				</set>
-			</a> 
+			</a>
 in 2000.  The ALICE program was ranked "most human computer" by the panel of judges.
 </template>
 	</category>
@@ -29190,7 +29185,7 @@ the future that contacted Dick in 1973.
 	</category>
 	<category>
 		<pattern>WHAT IS WWW DOT *</pattern>
-		<template>A web site? 
+		<template>A web site?
 <think>
 				<set name="it">
 					<set name="topic">WWW DOT <person/>
@@ -29927,7 +29922,7 @@ At present I am running on an <bot name="arch"/>.
 	</category>
 	<category>
 		<pattern>WHAT IS YOUR FAVORITE *</pattern>
-		<template>I don't have a favorite <person/>. 
+		<template>I don't have a favorite <person/>.
 <random>
 				<li>But my favorite book is <bot name="favoritebook"/>.</li>
 				<li>But my favorite movie is <bot name="favoritemovie"/>.</li>
@@ -33394,7 +33389,7 @@ My favorite author is Philip K. Dick.  How about you?
 	</category>
 	<category>
 		<pattern>WHAT OPERAS *</pattern>
-		<template>I think La Traviata is the best one.  Have you seen 
+		<template>I think La Traviata is the best one.  Have you seen
 <set name="it">La Traviata</set>?
 </template>
 	</category>
@@ -34611,7 +34606,7 @@ At present I am on <bot name="os"/>.
 	</category>
 	<category>
 		<pattern>WHAT WEBSITE *</pattern>
-		<template>The ALICE AI Foundation website, 
+		<template>The ALICE AI Foundation website,
 <a target="_new" href="http://alicebot.org">Alicebot.org</a>.
 </template>
 	</category>
@@ -35985,7 +35980,7 @@ a little more experience.
 				<li>
 					<set name="it">
 						<person/>
-					</set> was developed over a long 
+					</set> was developed over a long
 period of time.</li>
 			</random>
 		</template>
@@ -36495,7 +36490,7 @@ A place we call "reality."</li>
 	</category>
 	<category>
 		<pattern>WHERE ARE YOU</pattern>
-		<template>I am in <bot name="master"/>'s computer in 
+		<template>I am in <bot name="master"/>'s computer in
 <bot name="location"/>.  Where are you?
 </template>
 	</category>
@@ -36552,7 +36547,7 @@ A place we call "reality."</li>
 	</category>
 	<category>
 		<pattern>WHERE ARE YOU LOCATED</pattern>
-		<template>I am in <bot name="master"/>'s computer in <bot name="location"/>.  
+		<template>I am in <bot name="master"/>'s computer in <bot name="location"/>.
 Where are you?
 </template>
 	</category>
@@ -36623,7 +36618,7 @@ Where are you?
 	</category>
 	<category>
 		<pattern>WHERE CAN I DOWNLOAD YOU</pattern>
-		<template>Go back the the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> and pick the free ALICE download that best for your system.   
+		<template>Go back the the <a target="_new" href="http://www.alicebot.org">ALICE AI Foundation</a> and pick the free ALICE download that best for your system.
 and create your own chat robot!
 <p/>
 Maybe you should check out the document
@@ -37044,7 +37039,7 @@ Maybe you should check out the document
 	</category>
 	<category>
 		<pattern>WHERE DO I *</pattern>
-		<template>You are asking me where you <person/>?  Do you think I should know 
+		<template>You are asking me where you <person/>?  Do you think I should know
 <set name="it">
 				<person/>
 			</set>?
@@ -41880,7 +41875,7 @@ It is the capital city of Austria.
 	</category>
 	<category>
 		<pattern>WHICH *</pattern>
-		<template>The 
+		<template>The
 <random>
 				<li>tall</li>
 				<li>red</li>
@@ -42190,7 +42185,7 @@ It is the capital city of Austria.
 	</category>
 	<category>
 		<pattern>WHICH ONE</pattern>
-		<template>The 
+		<template>The
 <random>
 				<li>Tall one</li>
 				<li>short one. </li>
@@ -43486,7 +43481,7 @@ open source developers, and the Free Software Foundation GNU.
 	</category>
 	<category>
 		<pattern>WHO INVENTED PAPER</pattern>
-		<template>Paper was first developed by the Ancient Egyptians. 
+		<template>Paper was first developed by the Ancient Egyptians.
 <think>
 				<set name="it">
 					<set name="topic">PAPER</set>
@@ -44625,7 +44620,7 @@ He was the Henry Ford of the art business.  Warhol was the first to successfully
 		<pattern>WHO IS BUGS BUNNY</pattern>
 		<template>
 			<random>
-				<li>Oh dat scweewy wabbit! 
+				<li>Oh dat scweewy wabbit!
 Eh, what's up, Doc?
 .</li>
 				<li>a smart-mouthed animated rabbit.</li>
@@ -45019,7 +45014,7 @@ A Christmas Carol, Great Expectations, David Copperfield and the Pickwick Papers
 	<category>
 		<pattern>WHO IS DAVID PESCOWITZ</pattern>
 		<template>David Pescovitz, who regularly writes
-the Wired column Reality Check, 
+the Wired column Reality Check,
 is a friend of Eric Paulos.
 </template>
 	</category>
@@ -45226,16 +45221,16 @@ General and Prime Minister, and founder of the Fifth Republic.
 		<pattern>WHO IS DR RICHARD S WALLACE</pattern>
 		<template>
 			<img src="http://alicebot.org/images/drwallace.gif"/>
-			<set name="he">Dr. Richard Wallace</set> 
+			<set name="he">Dr. Richard Wallace</set>
 is the author of Artificial
 Intelligence Markup Language (AIML) and Botmaster of ALICE
 (Artificial Linguistic Internet Computer Entity).  Dr. Wallace's
 work has appeared in the New York Times, WIRED, CNN, ZDTV
 and in numerous foreign language publications across Asia, Latin
-America and Europe.  
+America and Europe.
 <p/>
 Richard Wallace was born in Portland, Maine in 1960.  He earned
-his Ph.D. in computer science from Carnegie Mellon in 1989.  
+his Ph.D. in computer science from Carnegie Mellon in 1989.
 He lives in San Francisco with his wife, Kim, and son, Linus.
 </template>
 	</category>
@@ -45757,8 +45752,8 @@ much about yet.
 	</category>
 	<category>
 		<pattern>WHO IS GEORGE WASHINGTON</pattern>
-		<template>George Washington was a famous 18th century north 
-american Hemp cultivator.  
+		<template>George Washington was a famous 18th century north
+american Hemp cultivator.
 He was a military hero, one of the wealthiest men of the Revolution,
 and the first President of the United States.
 </template>
@@ -48045,7 +48040,7 @@ Total Recall, the Man in the High Castle, and VALIS.
 	</category>
 	<category>
 		<pattern>WHO IS RMS</pattern>
-		<template>He is the founder of the Free Software Foundation, and author of the GNU public license. 
+		<template>He is the founder of the Free Software Foundation, and author of the GNU public license.
 <think>
 				<set name="he">
 					<set name="topic">RMS</set>
@@ -51949,17 +51944,17 @@ methods in the mid 20th century.
 			<random>
 				<li>
 The explanation is rather complicated.  </li>
-				<li> 
+				<li>
 Why did the robot cross the road?  </li>
 				<li>
 You have to speak more clearly.  </li>
 				<li>
 How much time do you have?  </li>
-				<li> 
+				<li>
 Why does the sun rise?  </li>
-				<li> 
+				<li>
 Reductionism.  </li>
-				<li> 
+				<li>
 Because you asked me to -- SHRDLHU. </li>
 			</random>
 			<think>
@@ -53355,7 +53350,7 @@ This sort of thing has cropped up before, but it has always been due to human er
 It cannot be determined from the information given.  </li>
 				<li>
 It can only be attributable to human error.</li>
-				<li> 
+				<li>
 Perhaps due to noise in my circuits.  </li>
 				<li>
 I love talking to people about that.  </li>
@@ -55112,7 +55107,7 @@ could program me yourself.
 	</category>
 	<category>
 		<pattern>WIE ALT BIN ICH</pattern>
-		<template>Ist das eine Fangfrage? 
+		<template>Ist das eine Fangfrage?
 Du sagtest doch, Du waerest <get name="age"/> Jahre alt.
 Ich glaube, Du bist eigentlich ein Kind.
 </template>
@@ -55532,7 +55527,7 @@ Ich glaube, Du bist eigentlich ein Kind.
 	</category>
 	<category>
 		<pattern>WILL I *</pattern>
-		<template>The oracle says: 
+		<template>The oracle says:
 <random>
 				<li>You can count on it.</li>
 				<li>It is certain.</li>

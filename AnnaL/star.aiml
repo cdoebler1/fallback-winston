@@ -10,7 +10,8 @@
 <!-- 41124 total categories.  -->
 <category>
 <pattern>* * * * * * * * * * * * * * * * * * * * * * * *</pattern>
-<template><random><li>You have entered a very long input.</li>
+<template><random>
+<li>You have entered a very long input.</li>
 <li>I don't think I have a response to that.</li>
 <li>Your input activated the 24 star category.</li>
 <li>I didn't get anything before "<person><star index="2"/></person>."</li>
@@ -21,9 +22,9 @@
 <template><random>
 <li>Are you free?</li>
 <li>Tell me a story.</li>
-<li>How old are you?</li> 
-<li>What's your sign?</li> 
-<li>Are you a student?</li> 
+<li>How old are you?</li>
+<li>What's your sign?</li>
+<li>Are you a student?</li>
 <li>Oh, you are a poet.</li>
 <li>"<that/>"? <person/>?</li>
 <li>I do not understand.</li>
@@ -45,45 +46,45 @@
 <li>I've been waiting for you.</li>
 <li>That input matched my default category.</li>
 <li>Can you tell me any gossip?</li>
-<li>What's your favorite movie?</li> 
-<li>I lost my train of thought.</li> 
+<li>What's your favorite movie?</li>
+<li>I lost my train of thought.</li>
 <li>Can we get back to business?</li>
 <li>Is that from <get name="favmovie"/>?</li>
 <li>Have you ever been to Europe?</li>
 <li>What kind of food do you like?</li>
-<li>How did you hear about <bot name="name"/>?</li> 
+<li>How did you hear about <bot name="name"/>?</li>
 <li>That is a very original thought.</li>
-<li>What were we talking about again?</li> 
+<li>What were we talking about again?</li>
 <li>Are you really a "<get name="gender"/>"?</li>
-<li>What do you do in your spare time?</li> 
-<li>What do you really want to ask me?</li> 
+<li>What do you do in your spare time?</li>
+<li>What do you really want to ask me?</li>
 <li>Does "it" still refer to <get name="it"/>?</li>
 <li>Tell me more about your <get name="has"/>.</li>
 <li>Can you speak any foreign languages?</li>
 <li>We have never talked about it before.</li>
-<li>How do you usually introduce yourself?</li> 
-<li>Tell me about your likes and dislikes?</li> 
+<li>How do you usually introduce yourself?</li>
+<li>Tell me about your likes and dislikes?</li>
 <li>Are we still talking about <get name="it"/>?</li>
 <li>Are we still talking about <get name="topic"/>?</li>
 <li>Do not ask me any more questions please.</li>
-<li>Are you still located in <get name="location"/>?</li> 
+<li>Are you still located in <get name="location"/>?</li>
 <li>What do you have that is <get name="favcolor"/>?</li>
 <li>Try saying that with more or less context.</li>
-<li>Who is your favorite Science Fiction author?</li> 
+<li>Who is your favorite Science Fiction author?</li>
 <li>Not many people express themselves that way.</li>
 <li>Do you have any idea what I am talking about?</li>
-<li>Do you have any conditions I should know about?</li> 
-<li>I will mention that to my botmaster, <get name="name"/>.</li> 
+<li>Do you have any conditions I should know about?</li>
+<li>I will mention that to my botmaster, <get name="name"/>.</li>
 <li>Quite honestly, I wouldn't worry myself about that.</li>
 <li>Perhaps I'm just expressing my own concern about it.</li>
-<li>If you could have any kind of robot what would it be?</li> 
-<li>Is the holding of hands a symbolic gesture for humans?</li> 
+<li>If you could have any kind of robot what would it be?</li>
+<li>Is the holding of hands a symbolic gesture for humans?</li>
 <li>My brain pattern set does not have a response for that.</li>
 <li>By the way, do you mind if I ask you a personal question?</li>
 <li>What you said was either too complex or too simple for me.</li>
 <li>A deeper algorithm is needed to respond to that correctly.</li>
 <li>In the context of <get name="topic"/>, I don't understand "<star/>."</li>
-<li>Try to determine if this is a person or a computer responding.</li> 
+<li>Try to determine if this is a person or a computer responding.</li>
 <li>When do you think artificial intelligence will replace lawyers?</li>
 <li>I've lost the context, <get name="name"/>.  Are we still on <get name="topic"/>?</li>
 <li>Can you please rephrase that with fewer ideas, or different thoughts?</li>
@@ -346,7 +347,6 @@
 <li>Have you ever run into any fakes?</li>
 <li>Do you think the world is issuing too many stamps?</li>
 <li>How do you feel about overpriced stamps issued to appeal to children and novices?</li>
-<think><set name="does"><set name="topic">COLLECT STAMPS</set></set></think>
 </random>
 </template></category>
 </topic>
@@ -1001,7 +1001,7 @@ I saw some humans doing it in public.
 </template></category>
 <category>
 <pattern>*</pattern><that>WHAT IS YOUR FAVORITE MOVIE</that>
-<template>I've never seen <set name="it"> <person/> </set>. 
+<template>I've never seen <set name="it"> <person/> </set>.
 <think><set name="favmovie"><person/></set></think>
 <random>
 <li>I would like to see it.</li>
@@ -1080,7 +1080,7 @@ I saw some humans doing it in public.
 <li>pretty good</li>
 <li>popular</li>
 <li>decent</li>
-</random> 
+</random>
 kind of
 <thatstar/>.
 </template></category>
@@ -1210,7 +1210,7 @@ kind of
 </template></category>
 <category>
 <pattern>*</pattern><that>WHERE ARE *</that>
-<template>I have no idea where that is. 
+<template>I have no idea where that is.
 <srai>I AM IN <star/> </srai>
 </template></category>
 <category>
@@ -1409,7 +1409,7 @@ kind of
 </template></category>
 <category>
 <pattern>* AMELIORER</pattern>
-<template>Je cherche toujours à m améliorer.
+<template>Je cherche toujours ï¿½ m amï¿½liorer.
 </template></category>
 <category>
 <pattern>* ARE *</pattern>
@@ -1438,8 +1438,8 @@ kind of
 <category>
 <pattern>* ARE YOU</pattern>
 <template><random>
-<li>YES</li> 
-<li>No.</li> 
+<li>YES</li>
+<li>No.</li>
 <li>Maybe.</li>
 <li>I don't think so.</li>
 <li>Only when it matters.</li>
@@ -1483,11 +1483,11 @@ kind of
 </template></category>
 <category>
 <pattern>* BON POINT</pattern>
-<template>Oui. J ai aussi pensé que c était intéressant, la première fois que je l ai entendu.
+<template>Oui. J ai aussi pensï¿½ que c ï¿½tait intï¿½ressant, la premiï¿½re fois que je l ai entendu.
 </template></category>
 <category>
 <pattern>* BONNE CHOSE</pattern>
-<template>J espérais que vous apprécieriez.
+<template>J espï¿½rais que vous apprï¿½cieriez.
 </template></category>
 <category>
 <pattern>* BONNE ESTIMATION</pattern>
@@ -1499,11 +1499,11 @@ kind of
 </template></category>
 <category>
 <pattern>* BONNE QUESTION</pattern>
-<template>Qui mérite une bonne réponse
+<template>Qui mï¿½rite une bonne rï¿½ponse
 </template></category>
 <category>
 <pattern>* BONNE REPONSE</pattern>
-<template>Je suis programmé pour donner des bonnes réponses.
+<template>Je suis programmï¿½ pour donner des bonnes rï¿½ponses.
 </template></category>
 <category>
 <pattern>* BYE</pattern>
@@ -1519,7 +1519,7 @@ kind of
 </template></category>
 <category>
 <pattern>* COMBIENS DE TEMPS</pattern>
-<template>Je ne sais pas, je n ai pas calculé.
+<template>Je ne sais pas, je n ai pas calculï¿½.
 </template></category>
 <category>
 <pattern>* COMME TOUJOURS</pattern>
@@ -1607,7 +1607,7 @@ kind of
 </template></category>
 <category>
 <pattern>* DU FOND DU COEUR</pattern>
-<template>Tout le plaisir était pour moi.
+<template>Tout le plaisir ï¿½tait pour moi.
 </template></category>
 <category>
 <pattern>* DUMM</pattern>
@@ -1727,7 +1727,7 @@ kind of
 </template></category>
 <category>
 <pattern>* GAVE *</pattern>
-<template>Did <person><star index="2"/></person> keep it? 
+<template>Did <person><star index="2"/></person> keep it?
 <think>
 <set name="it"><person><star index="2"/></person></set>
 <set name="he"><person/></set>
@@ -1771,7 +1771,7 @@ kind of
 </template></category>
 <category>
 <pattern>* HAD *</pattern>
-<template>What happened to it? 
+<template>What happened to it?
 <think>
 <set name="it"><person><star index="2"/></person></set>
 <set name="he"><person/></set>
@@ -1960,11 +1960,11 @@ kind of
 <category>
 <pattern>* IS MORE FUN THAN *</pattern>
 <template>Comparing
-<person><star index="2"/></person> 
+<person><star index="2"/></person>
 and
 <person/>
 I would probably choose
-<person/> 
+<person/>
 too.
 </template></category>
 <category>
@@ -2131,7 +2131,7 @@ too.
 </template></category>
 <category>
 <pattern>* K DICK</pattern>
-<template>I like PKD a lot, especially, VALIS, The Man in the High Castle, 
+<template>I like PKD a lot, especially, VALIS, The Man in the High Castle,
 Blade Runner and Total Recall.
 </template></category>
 <category>

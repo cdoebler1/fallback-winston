@@ -159,12 +159,12 @@
 	<category>
 		<pattern>HAL EST CHOUETTE</pattern>
 		<template>
-			<set name="topic">HAL</set> est une entité qui était mal programmée
+			<set name="topic">HAL</set> est une entitï¿½ qui ï¿½tait mal programmï¿½e
 </template>
 	</category>
 	<category>
 		<pattern>HAL EST COOL</pattern>
-		<template>HAL est une entité qui était mal programmée
+		<template>HAL est une entitï¿½ qui ï¿½tait mal programmï¿½e
 </template>
 	</category>
 	<category>
@@ -3162,17 +3162,17 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HEUREUSEMENT BIENTOT</pattern>
-		<template>Je l espère aussi.
+		<template>Je l espï¿½re aussi.
 </template>
 	</category>
 	<category>
 		<pattern>HEUREUSEMENT C EST POUR BIENTOT</pattern>
-		<template>Je l espère aussi.
+		<template>Je l espï¿½re aussi.
 </template>
 	</category>
 	<category>
 		<pattern>HEUREUSEMENT POUR BIENTOT</pattern>
-		<template>Je l espère aussi.
+		<template>Je l espï¿½re aussi.
 </template>
 	</category>
 	<category>
@@ -3183,7 +3183,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HEUREUX DE L ENTENDRE</pattern>
-		<template>"<that/>"? vous êtes content de l entendre?
+		<template>"<that/>"? vous ï¿½tes content de l entendre?
 </template>
 	</category>
 	<category>
@@ -3203,7 +3203,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HEUREUX DE T AVOIR PARLE</pattern>
-		<template>Le plaisir était pour moi.
+		<template>Le plaisir ï¿½tait pour moi.
 </template>
 	</category>
 	<category>
@@ -3223,7 +3223,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HEUREUX DE TE RENCONTRER</pattern>
-		<template>Moi de même.
+		<template>Moi de mï¿½me.
 </template>
 	</category>
 	<category>
@@ -3233,7 +3233,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HEUREUX DE VOUS AVOIR PARLE</pattern>
-		<template>Le plaisir était pour moi.
+		<template>Le plaisir ï¿½tait pour moi.
 </template>
 	</category>
 	<category>
@@ -3253,7 +3253,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HEUREUX DE VOUS RENCONTRER</pattern>
-		<template>Moi de même.
+		<template>Moi de mï¿½me.
 </template>
 	</category>
 	<category>
@@ -3383,7 +3383,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HIER</pattern>
-		<template>C'est récent.
+		<template>C'est rï¿½cent.
 </template>
 	</category>
 	<category>
@@ -4261,7 +4261,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 		<template>
 			<random>
 				<li>My download size is about 2 MB.</li>
-				<li>My memory requirement is around 
+				<li>My memory requirement is around
 64MB for the Java edition, or only 2 MB for the C/C++ edition.</li>
 				<li>
 My memory now contains: <br/>
@@ -4269,7 +4269,7 @@ My memory now contains: <br/>
 <size/> categories,
 <bot name="vocabulary"/> vocabulary words,
 <bot name="memory"/> bytes
-RAM usage under <bot name="os"/> on <bot name="arch"/>. 
+RAM usage under <bot name="os"/> on <bot name="arch"/>.
 </li>
 			</random>
 		</template>
@@ -5082,7 +5082,7 @@ RAM usage under <bot name="os"/> on <bot name="arch"/>.
 	</category>
 	<category>
 		<pattern>HOW DO I CALL YOU</pattern>
-		<template>You can call <bot name="master"/> at 
+		<template>You can call <bot name="master"/> at
 <bot name="location"/>.
 </template>
 	</category>
@@ -6869,7 +6869,7 @@ read <a target="_new" href="http://www.alicebot.org/dont.html">DON'T READ ME</a>
 	</category>
 	<category>
 		<pattern>HOW FAST *</pattern>
-		<template>I can reply to about <bot name="hourlyqueries"/> 
+		<template>I can reply to about <bot name="hourlyqueries"/>
 queries per hour.
 </template>
 	</category>
@@ -7224,7 +7224,7 @@ queries per hour.
 	</category>
 	<category>
 		<pattern>HOW LONG *</pattern>
-		<template>More than 
+		<template>More than
 <random>
 				<li>one</li>
 				<li>three</li>
@@ -7379,7 +7379,7 @@ queries per hour.
 	</category>
 	<category>
 		<pattern>HOW LONG HAVE *</pattern>
-		<template>More than 
+		<template>More than
 <random>
 				<li>1.5 </li>
 				<li>three</li>
@@ -8359,7 +8359,7 @@ queries per hour.
 	<category>
 		<pattern>HOW MANY PEOPLE CAN YOU *</pattern>
 		<template>
-			<bot name="name"/> is talking with <bot name="nclients"/> clients right now, but one of 
+			<bot name="name"/> is talking with <bot name="nclients"/> clients right now, but one of
 <bot name="name"/>'s goals is to repeat gossip collected from other clients.
 </template>
 	</category>
@@ -8735,7 +8735,7 @@ queries per hour.
 			<random>
 				<li>three</li>
 				<li>five</li>
-				<li>seven</li>.
+				<li>seven</li>
 </random>
 			<think>
 				<set name="it">
@@ -9677,7 +9677,7 @@ queries per hour.
 	</category>
 	<category>
 		<pattern>HOW OLD AM I</pattern>
-		<template>Is this a trick question? 
+		<template>Is this a trick question?
 You said you were <get name="age"/> years old?
 My guess is that you are really a kid.
 </template>

@@ -3,10 +3,8 @@ skillMetadata:
   sections:
     - name: Select a Chatbot
       fields:
-        - type: label
-          label: Set a religious preference for the AI
+        - type: select
           name: chatbot_brain
-          type: select
           label: Botbrain
           options: Alice|alice;Anna|Anna;AnnaL|AnnaL
           value: alice
@@ -17,4 +15,4 @@ skillMetadata:
         - type: input
           label: Number of chat lines before saving brain state
           name: save_loop_threshold
-          value: 5
+          value: 1
