@@ -20,8 +20,8 @@ from os import listdir, remove as remove_file
 from os.path import dirname, isfile
 
 from mycroft.api import DeviceApi
-from mycroft.skills.core import FallbackSkill, intent_handler
-from mycroft.skills.core import intent_file_handler
+from mycroft.skills.core import MycroftSkill, FallbackSkill
+from mycroft.skills.core import intent_handler, intent_file_handler
 from adapt.intent import IntentBuilder
 
 
@@ -44,28 +44,6 @@ class WinstonFallback(FallbackSkill):
     def initialize(self):
         self.register_fallback(self.handle_fallback, 10)
         return
-
-    chatting = False
-
-    @intent_file_handler("start_parrot.intent")
-    def handle_start_parrot_intent(self, message):
-        self.chatting = True
-        self.speak_dialog("chat_start", expect_response=True)
-
-    @intent_file_handler("stop_parrot.intent")
-    def handle_stop_parrot_intent(self, message):
-        if self.chatting:
-            self.chatting = False
-            self.speak_dialog("chat_stop")
-        else:
-            self.speak_dialog("not_chatting")
-
-    def stop(self):
-        if self.chatting:
-            self.chatting = False
-            self.speak_dialog("chat_stop")
-            return True
-        return False
 
     def load_brain(self):
         """Set up the aiml engine using available device information."""
@@ -158,6 +136,31 @@ class WinstonFallback(FallbackSkill):
         self.remove_fallback(self.handle_fallback)
         super(WinstonFallback, self).shutdown()
 
+
+class Chatbot(MycroftSkill):
+
+    chatting = False
+
+    @intent_file_handler("start_parrot.intent")
+    def handle_start_parrot_intent(self, message):
+        self.chatting = True
+        self.speak_dialog("chat_start", expect_response=True)
+
+    @intent_file_handler("stop_parrot.intent")
+    def handle_stop_parrot_intent(self, message):
+        if self.chatting:
+            self.chatting = False
+            self.speak_dialog("chat_stop")
+        else:
+            self.speak_dialog("not_chatting")
+
+    def stop(self):
+        if self.chatting:
+            self.chatting = False
+            self.speak_dialog("chat_stop")
+            return True
+        return False
+
     def converse(self, message, lang="en-us"):
         # check if stop intent will trigger
         if self.voc_match(message[0],
@@ -178,4 +181,4 @@ class WinstonFallback(FallbackSkill):
 
 
 def create_skill():
-    return WinstonFallback()
+    return WinstonFallback(), Chatbot()
