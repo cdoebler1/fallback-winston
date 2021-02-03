@@ -32,7 +32,6 @@ class WinstonFallback(FallbackSkill):
         chatbot_brain = self.settings.get('chatbot_brain')
         self.aiml_path = os.path.join(dirname(__file__), chatbot_brain)
         self.brain_path = os.path.join(self.file_system.path, 'bot_brain.brn')
-        self.speak_dialog(self.brain.path)
         # reloading skills will also reset this 'timer', so ideally it should
         # not be too high
         self.line_count = 1
