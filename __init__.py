@@ -20,7 +20,8 @@ from os import listdir, remove as remove_file
 from os.path import dirname, isfile
 
 from mycroft.api import DeviceApi
-from mycroft.skills.core import FallbackSkill, intent_handler, intent_file_handler
+from mycroft.skills.core import FallbackSkill, intent_handler
+from mycroft.skills.core import intent_file_handler
 from adapt.intent import IntentBuilder
 
 
@@ -157,14 +158,16 @@ class WinstonFallback(FallbackSkill):
         self.remove_fallback(self.handle_fallback)
         super(WinstonFallback, self).shutdown()
 
-    def converse(self, utterances, lang="en-us"):
+    def converse(self, message, lang="en-us"):
         # check if stop intent will trigger
-        if self.voc_match(utterances[0], "StopKeyword") and self.voc_match(utterances[0], "ChatKeyword"):
+        if self.voc_match(message[0],
+                          "StopKeyword") and self.voc_match(message[0],
+                                                            "ChatKeyword"):
             return False
 
         if not self.brain_loaded:
             self.load_brain()
-        utterance = utterances.data.get("utterance")
+        utterance = message.data.get("utterance")
         answer = self.ask_brain(utterance)
         if answer != "":
             asked_question = False
