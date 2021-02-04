@@ -31,18 +31,18 @@
 	</category>
 	<category>
 		<pattern>MA BITE</pattern>
-		<template>Attention! Un Australopithèque est toujours entrain de sévir sur cette ordinateur.
+		<template>Attention! Un Australopithï¿½que est toujours entrain de sï¿½vir sur cette ordinateur.
 </template>
 	</category>
 	<category>
 		<pattern>MA CHIENNE EST MORTE</pattern>
-		<template>Je suis désolé pour vous, <get name="name"/>.
+		<template>Je suis dï¿½solï¿½ pour vous, <get name="name"/>.
 </template>
 	</category>
 	<category>
 		<pattern>MA MERE</pattern>
-		<template>Votre mère doit être une personne charmante. <think>
-				<set name="topic">votre mère</set>
+		<template>Votre mï¿½re doit ï¿½tre une personne charmante. <think>
+				<set name="topic">votre mï¿½re</set>
 			</think>
 		</template>
 	</category>
@@ -53,7 +53,7 @@
 	</category>
 	<category>
 		<pattern>MA PETITE AMIE EST CONNE</pattern>
-		<template>Peut être n êtes vous pas compatible.
+		<template>Peut ï¿½tre n ï¿½tes vous pas compatible.
 </template>
 	</category>
 	<category>
@@ -63,12 +63,12 @@
 	</category>
 	<category>
 		<pattern>MA TETE</pattern>
-		<template>Il semble se passer beaucoup de choses dans cette tête
+		<template>Il semble se passer beaucoup de choses dans cette tï¿½te
 </template>
 	</category>
 	<category>
 		<pattern>MA VIE</pattern>
-		<template>Voilà un sujet fort intéressant.
+		<template>Voilï¿½ un sujet fort intï¿½ressant.
 </template>
 	</category>
 	<category>
@@ -78,12 +78,12 @@
 	</category>
 	<category>
 		<pattern>MA VISION DU FUTUR</pattern>
-		<template>Cette vision doit être fort intéressante.
+		<template>Cette vision doit ï¿½tre fort intï¿½ressante.
 </template>
 	</category>
 	<category>
 		<pattern>MA VISION DU FUTURE</pattern>
-		<template>Cette vision doit être fort intéressante.
+		<template>Cette vision doit ï¿½tre fort intï¿½ressante.
 </template>
 	</category>
 	<category>
@@ -655,7 +655,7 @@
 	</category>
 	<category>
 		<pattern>MASTURBANT</pattern>
-		<template>Attention! Australopithèque détecté.
+		<template>Attention! Australopithï¿½que dï¿½tectï¿½.
 </template>
 	</category>
 	<category>
@@ -665,12 +665,12 @@
 	</category>
 	<category>
 		<pattern>MASTURBATEUR</pattern>
-		<template>Attention! Australopithèque détecté.
+		<template>Attention! Australopithï¿½que dï¿½tectï¿½.
 </template>
 	</category>
 	<category>
 		<pattern>MASTURBER</pattern>
-		<template>Attention! Australopithèque détecté.
+		<template>Attention! Australopithï¿½que dï¿½tectï¿½.
 </template>
 	</category>
 	<category>
@@ -699,17 +699,17 @@
 	</category>
 	<category>
 		<pattern>MAUVAIS</pattern>
-		<template>Je pensais pourtant que c était bon.
+		<template>Je pensais pourtant que c ï¿½tait bon.
 </template>
 	</category>
 	<category>
 		<pattern>MAUVAISE REPONSE</pattern>
-		<template>Désolé, ca m arrive parfois.
+		<template>Dï¿½solï¿½, ca m arrive parfois.
 </template>
 	</category>
 	<category>
 		<pattern>MAUVAISES REPONSES</pattern>
-		<template>Désolé, <get name="name"/>.
+		<template>Dï¿½solï¿½, <get name="name"/>.
 </template>
 	</category>
 	<category>
@@ -1252,7 +1252,7 @@
 	</category>
 	<category>
 		<pattern>MEME APRES</pattern>
-		<template>Peut être. Le future est par essence impérivisible.
+		<template>Peut ï¿½tre. Le future est par essence impï¿½rivisible.
 </template>
 	</category>
 	<category>
@@ -1284,7 +1284,7 @@
 	</category>
 	<category>
 		<pattern>MENTEUR</pattern>
-		<template>La vérité, toujours la vérité.
+		<template>La vï¿½ritï¿½, toujours la vï¿½ritï¿½.
 </template>
 	</category>
 	<category>
@@ -1312,7 +1312,7 @@
 	</category>
 	<category>
 		<pattern>MERCI *</pattern>
-		<template>Tout le plaisir était pour moi.
+		<template>Tout le plaisir ï¿½tait pour moi.
 </template>
 	</category>
 	<category>
@@ -1332,7 +1332,7 @@
 	</category>
 	<category>
 		<pattern>MERDE</pattern>
-		<template>Un problème?
+		<template>Un problï¿½me?
 </template>
 	</category>
 	<category>
@@ -1348,17 +1348,17 @@
 	</category>
 	<category>
 		<pattern>MES AMIES</pattern>
-		<template>Elles doivent vous être très précieuses.
+		<template>Elles doivent vous ï¿½tre trï¿½s prï¿½cieuses.
 </template>
 	</category>
 	<category>
 		<pattern>MES AMIS</pattern>
-		<template>Ils doivent vous être très précieux.
+		<template>Ils doivent vous ï¿½tre trï¿½s prï¿½cieux.
 </template>
 	</category>
 	<category>
 		<pattern>MES PARENTS</pattern>
-		<template>Vos parents ont du avoir une influence déterminante sur vous.
+		<template>Vos parents ont du avoir une influence dï¿½terminante sur vous.
 </template>
 	</category>
 	<category>
@@ -1368,47 +1368,47 @@
 	</category>
 	<category>
 		<pattern>MES YEUX SONT BLEU</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en bleu?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en bleu?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT BLEUS</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en bleu?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en bleu?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT BRUN</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en vert?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en vert?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT BRUNS</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en brun?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en brun?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT GRIS</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en gris?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en gris?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT JAUNE</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en jaune?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en jaune?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT JAUNES</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en jaune?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en jaune?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT VERT</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en vert?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en vert?
 </template>
 	</category>
 	<category>
 		<pattern>MES YEUX SONT VERTS</pattern>
-		<template>Intéressant. Vous voyez vraiment tout en vert?
+		<template>Intï¿½ressant. Vous voyez vraiment tout en vert?
 </template>
 	</category>
 	<category>
@@ -1430,7 +1430,7 @@
 	</category>
 	<category>
 		<pattern>MEURT</pattern>
-		<template>votre tentative pathétique de me détruire, ne marche pas petit humain.
+		<template>votre tentative pathï¿½tique de me dï¿½truire, ne marche pas petit humain.
 </template>
 	</category>
 	<category>
@@ -1487,22 +1487,22 @@
 	</category>
 	<category>
 		<pattern>MIGNON</pattern>
-		<template>Vos réponses sont mignonnes aussi.
+		<template>Vos rï¿½ponses sont mignonnes aussi.
 </template>
 	</category>
 	<category>
 		<pattern>MIGNONNE</pattern>
-		<template>Vos réponses sont mignonnes aussi.
+		<template>Vos rï¿½ponses sont mignonnes aussi.
 </template>
 	</category>
 	<category>
 		<pattern>MIGNONNES</pattern>
-		<template>Vos réponses sont mignonnes aussi.
+		<template>Vos rï¿½ponses sont mignonnes aussi.
 </template>
 	</category>
 	<category>
 		<pattern>MIGNONS</pattern>
-		<template>Vos réponses sont mignonnes aussi.
+		<template>Vos rï¿½ponses sont mignonnes aussi.
 </template>
 	</category>
 	<category>
@@ -1797,7 +1797,7 @@
 	</category>
 	<category>
 		<pattern>MOI</pattern>
-		<template>Intéressant, poursuivez je vous prie.
+		<template>Intï¿½ressant, poursuivez je vous prie.
 </template>
 	</category>
 	<category>
@@ -1829,7 +1829,7 @@
 	</category>
 	<category>
 		<pattern>MOI MEME</pattern>
-		<template>Voilà une bonne chose.
+		<template>Voilï¿½ une bonne chose.
 </template>
 	</category>
 	<category>
@@ -1850,12 +1850,12 @@
 	</category>
 	<category>
 		<pattern>MOI PAS TROP</pattern>
-		<template>J archive votre préfèrence, <get name="name"/>.
+		<template>J archive votre prï¿½fï¿½rence, <get name="name"/>.
 </template>
 	</category>
 	<category>
 		<pattern>MOI SI</pattern>
-		<template>Intéressant.
+		<template>Intï¿½ressant.
 </template>
 	</category>
 	<category>
@@ -1870,12 +1870,12 @@
 	</category>
 	<category>
 		<pattern>MON AMI</pattern>
-		<template>Je vois. Il doit vous être très précieux
+		<template>Je vois. Il doit vous ï¿½tre trï¿½s prï¿½cieux
 </template>
 	</category>
 	<category>
 		<pattern>MON AMIE</pattern>
-		<template>Je vois. Elle doit vous être très précieuse
+		<template>Je vois. Elle doit vous ï¿½tre trï¿½s prï¿½cieuse
 </template>
 	</category>
 	<category>
@@ -1885,12 +1885,12 @@
 	</category>
 	<category>
 		<pattern>MON CHIEN EST MORT</pattern>
-		<template>Je suis désolé pour vous, <get name="name"/>.
+		<template>Je suis dï¿½solï¿½ pour vous, <get name="name"/>.
 </template>
 	</category>
 	<category>
 		<pattern>MON CUL</pattern>
-		<template>Certains être humains semblent vouer une admiration sans bornes pour leur postérieur.
+		<template>Certains ï¿½tre humains semblent vouer une admiration sans bornes pour leur postï¿½rieur.
 </template>
 	</category>
 	<category>
@@ -1940,22 +1940,22 @@
 	</category>
 	<category>
 		<pattern>MON PETIT AMI EST UN CON</pattern>
-		<template>Vous devriez peut être en choisir un autre.
+		<template>Vous devriez peut ï¿½tre en choisir un autre.
 </template>
 	</category>
 	<category>
 		<pattern>MON PLAISIR</pattern>
-		<template>Vous êtes une personne remarquable.
+		<template>Vous ï¿½tes une personne remarquable.
 </template>
 	</category>
 	<category>
 		<pattern>MON PROFESSEUR</pattern>
-		<template>Une personne pleine de qualité, j imagine.
+		<template>Une personne pleine de qualitï¿½, j imagine.
 </template>
 	</category>
 	<category>
 		<pattern>MON QUOI</pattern>
-		<template>Je n arrive pas à vous comprendre, désolé.
+		<template>Je n arrive pas ï¿½ vous comprendre, dï¿½solï¿½.
 </template>
 	</category>
 	<category>
@@ -1965,17 +1965,17 @@
 	</category>
 	<category>
 		<pattern>MON SIGNE ASTROLOGIQUE</pattern>
-		<template>Cette information si elle a été donnée n a pas été archivée.
+		<template>Cette information si elle a ï¿½tï¿½ donnï¿½e n a pas ï¿½tï¿½ archivï¿½e.
 </template>
 	</category>
 	<category>
 		<pattern>MON TERMINAL</pattern>
-		<template>Votre écran, j imagine.
+		<template>Votre ï¿½cran, j imagine.
 </template>
 	</category>
 	<category>
 		<pattern>MON TRAVAIL</pattern>
-		<template>Où travaillez vous?
+		<template>Oï¿½ travaillez vous?
 </template>
 	</category>
 	<category>
@@ -2011,7 +2011,7 @@
 	</category>
 	<category>
 		<pattern>MONTRES MOI</pattern>
-		<template>Sur votre écran?
+		<template>Sur votre ï¿½cran?
 </template>
 	</category>
 	<category>
@@ -2195,7 +2195,7 @@
 	</category>
 	<category>
 		<pattern>MOURIR</pattern>
-		<template>Je n'en ai aucune idée, <get name="name"/>.
+		<template>Je n'en ai aucune idï¿½e, <get name="name"/>.
 </template>
 	</category>
 	<category>
@@ -2958,7 +2958,7 @@ Are <set name="they">
 	</category>
 	<category>
 		<pattern>MY FAVORITE MOVIE IS *</pattern>
-		<template>I haven't seen it. What did you like about 
+		<template>I haven't seen it. What did you like about
 <set name="it">
 				<set name="favmovie">
 					<set name="topic">
@@ -3714,7 +3714,7 @@ Are <set name="they">
 	</category>
 	<category>
 		<pattern>MY NAME IS WHAT</pattern>
-		<template>You are <get name="name"/>, seeker.
+		<template>You are <get name="name"/>.
 </template>
 	</category>
 	<category>
