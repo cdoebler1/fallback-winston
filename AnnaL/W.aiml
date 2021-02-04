@@ -2993,7 +2993,7 @@ to learn much by reading.
 		<pattern>WHAT AM I</pattern>
 		<template>
 			<random>
-				<li>You are a person, seeker.</li>
+				<li>You are a person.</li>
 				<li>You are <get name="is"/>
 				</li>
 				<li>You are a client.</li>
@@ -20113,7 +20113,7 @@ the doughty Mrs. W. greets them.
 	</category>
 	<category>
 		<pattern>WHAT IS MY NAME</pattern>
-		<template>Your name is <get name="name"/>, seeker.
+		<template>Your name is <get name="name"/>.
 </template>
 	</category>
 	<category>
