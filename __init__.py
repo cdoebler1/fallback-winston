@@ -116,9 +116,10 @@ class WinstonFallback(FallbackSkill):
 
     def handle_fallback(self, message):
         if self.chatting:
-            if self.voc_match(message[0], "StopKeyword") and self.voc_match(message[0], "ChatKeyword"):
-                return False
             utterance = message.data.get("utterance")
+            if utterance == "stop chatting":
+                self.chatting = False
+                return False
             answer = self.ask_brain(utterance)
             if answer != "":
                 asked_question = False
