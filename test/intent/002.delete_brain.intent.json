@@ -1,5 +1,0 @@
-{
-  "utterance": "reset your memory",
-  "intent_type": "ResetMemoryIntent",
-  "expected_dialog": "reset.memory"
-}

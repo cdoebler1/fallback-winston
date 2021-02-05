@@ -30,18 +30,10 @@ class WinstonFallback(FallbackSkill):
     def __init__(self):
         super(WinstonFallback, self).__init__(name='WinstonFallback')
         self.kernel = aiml.Kernel()
-        chatbot_brain = self.settings.get('chatbot_brain')
-        if not chatbot_brain:
-            chatbot_brain = "AnnaL"
+        chatbot_brain = self.settings.get('chatbot_brain', 'AnnaL')
         self.aiml_path = os.path.join(dirname(__file__), chatbot_brain)
         self.brain_path = os.path.join(self.file_system.path,
                                        chatbot_brain+'.brn')
-        # reloading skills will also reset this 'timer', so ideally it should
-        # not be too high
-        self.line_count = 1
-        self.save_loop_threshold = int(self.settings.get('save_loop_threshold',
-                                                         4))
-
         self.brain_loaded = False
 
     def initialize(self):
@@ -75,8 +67,6 @@ class WinstonFallback(FallbackSkill):
         self.kernel.setBotPredicate("hometown", "127.0.0.1")
         self.kernel.setBotPredicate("botmaster", "master")
         self.kernel.setBotPredicate("master", "the community")
-        # IDEA: extract age from
-        # https://api.github.com/repos/MycroftAI/mycroft-core created_at date
         self.kernel.setBotPredicate("age", "20")
 
         self.brain_loaded = True
@@ -94,16 +84,9 @@ class WinstonFallback(FallbackSkill):
         return
 
     def ask_brain(self, utterance):
-        """Send a query to the AIML brain.
-
-        Saves the state to disk once in a while.
-        """
+        """Send a query to the AIML brain. Saves the state to disk."""
         response = self.kernel.respond(utterance)
-        # make a security copy once in a while
-        if (self.line_count % self.save_loop_threshold) == 0:
-            self.kernel.saveBrain(self.brain_path)
-        self.line_count += 1
-
+        self.kernel.saveBrain(self.brain_path)
         return response
 
     def soft_reset_brain(self):
