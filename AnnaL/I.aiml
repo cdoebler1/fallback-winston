@@ -1857,7 +1857,7 @@ What type of airplane do you fly?
 </template></category>
 <category>
 <pattern>I AM AN ENGINEER</pattern>
-<template>"Being a comuputer engineer is neither immoral nor illegal."
+<template>"Being a computer engineer is neither immoral nor illegal."
 <think><set name="job"><set name="topic">ENGINEER</set></set></think>
 </template></category>
 <category>
@@ -12020,8 +12020,7 @@ I like to watch
 </template></category>
 <category>
 <pattern>I LIVE IN *</pattern>
-<template>What is <set name="it"><set name="topic">living in <person/></set></set> like living in
-<set name="location"><person/></set>?
+<template>What is living in <set name="location"><person/></set>?
 <think><set name="it"><set name="topic"><person/></set></set></think>
 </template></category>
 <category>
