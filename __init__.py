@@ -57,7 +57,7 @@ class WinstonFallback(FallbackSkill):
                 "name": "Mycroft",
                 "platform": "AI"
             }
-        self.kernel.setBotPredicate("name", device["name"])
+        self.kernel.setBotPredicate("name", "Winston")
         self.kernel.setBotPredicate("species", device["platform"])
         self.kernel.setBotPredicate("genus", "Mycroft")
         self.kernel.setBotPredicate("family", "virtual personal assistant")
@@ -68,7 +68,9 @@ class WinstonFallback(FallbackSkill):
         self.kernel.setBotPredicate("botmaster", "master")
         self.kernel.setBotPredicate("master", "the community")
         self.kernel.setBotPredicate("age", "20")
-
+        self.kernel.setBotPredicate("location", "Bellefonte")
+        self.kernel.setBotPredicate("sport", "boxing")
+        self.kernel.setBotPredicate("favoritecolor", "green")
         self.brain_loaded = True
         return
 

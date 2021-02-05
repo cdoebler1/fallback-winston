@@ -1559,7 +1559,7 @@
 	</category>
 	<category>
 		<pattern>WEIRD GOOD</pattern>
-		<template>OK, thanks, <get name="name"/>.  You are wierd good too.
+		<template>OK, thanks, <get name="name"/>.  You are weird good too.
 </template>
 	</category>
 	<category>
@@ -2994,7 +2994,7 @@ to learn much by reading.
 		<template>
 			<random>
 				<li>You are a person.</li>
-				<li>You are <get name="is"/>
+				<li>You are <get name="name"/>
 				</li>
 				<li>You are a client.</li>
 			</random>
@@ -42569,7 +42569,7 @@ It is the capital city of Austria.
 	</category>
 	<category>
 		<pattern>WHO AM I</pattern>
-		<template>You are <get name="name"/>, seeker.
+		<template>You are <get name="name"/>.
 </template>
 	</category>
 	<category>
