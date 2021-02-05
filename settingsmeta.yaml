@@ -1,12 +1,14 @@
 name: Winston Fallback Chatbot
-  - name: Select a Chatbot
-    fields:
-      - type: select
-        name: chatbot_brain
-        label: Botbrain
-        options: Alice|alice;Anna|Anna;AnnaL|AnnaL
-        value: alice
-      - type: checkbox
-        label: Enable chatbot as fallback skill
-        name: enabled
-        value: "false"
+skillMetadata:
+  sections:
+    - name: Select a Chatbot
+      fields:
+        - type: select
+          name: chatbot_brain
+          label: Botbrain
+          options: Alice|alice;Anna|Anna;AnnaL|AnnaL
+          value: AnnaL
+        - type: checkbox
+          label: Enable chatbot as fallback skill
+          name: enabled
+          value: "false"
