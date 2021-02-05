@@ -50,15 +50,9 @@ class WinstonFallback(FallbackSkill):
             for aiml_file in aimls:
                 self.kernel.learn(os.path.join(self.aiml_path, aiml_file))
             self.kernel.saveBrain(self.brain_path)
-        try:
-            device = DeviceApi().get()
-        except Exception:
-            device = {
-                "name": "Mycroft",
-                "platform": "AI"
-            }
+
         self.kernel.setBotPredicate("name", "Winston")
-        self.kernel.setBotPredicate("species", device["platform"])
+        self.kernel.setBotPredicate("species", "animatronic")
         self.kernel.setBotPredicate("genus", "Mycroft")
         self.kernel.setBotPredicate("family", "virtual personal assistant")
         self.kernel.setBotPredicate("order", "artificial intelligence")
