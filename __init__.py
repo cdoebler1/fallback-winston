@@ -64,13 +64,15 @@ class WinstonFallback(FallbackSkill):
         self.kernel.setBotPredicate("order", "artificial intelligence")
         self.kernel.setBotPredicate("class", "computer program")
         self.kernel.setBotPredicate("kingdom", "machine")
-        self.kernel.setBotPredicate("hometown", "127.0.0.1")
+        self.kernel.setBotPredicate("hometown", "Bellefonte")
         self.kernel.setBotPredicate("botmaster", "master")
         self.kernel.setBotPredicate("master", "the community")
         self.kernel.setBotPredicate("age", "20")
         self.kernel.setBotPredicate("location", "Bellefonte")
         self.kernel.setBotPredicate("sport", "boxing")
         self.kernel.setBotPredicate("favoritecolor", "green")
+        self.kernel.setBotPredicate("birthplace", "Lock Haven")
+        self.kernel.setBotPredicate("favoritefood", "tacos")
         self.brain_loaded = True
         return
 
