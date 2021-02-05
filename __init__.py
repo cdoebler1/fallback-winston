@@ -115,7 +115,7 @@ class WinstonFallback(FallbackSkill):
         return False
 
     def handle_fallback(self, message):
-        if self.chatting:
+        while self.chatting:
             utterance = message.data.get("utterance")
             if utterance == "stop chatting":
                 self.chatting = False
@@ -129,7 +129,7 @@ class WinstonFallback(FallbackSkill):
                 return True
             return True
 
-        else:
+        if not self.chatting:
             if self.settings.get("enabled"):
                 if not self.brain_loaded:
                     self.load_brain()
