@@ -26,6 +26,8 @@ from adapt.intent import IntentBuilder
 
 class WinstonFallback(FallbackSkill):
 
+    chatting = False
+
     def __init__(self):
         super(WinstonFallback, self).__init__(name='WinstonFallback')
         self.kernel = aiml.Kernel()
