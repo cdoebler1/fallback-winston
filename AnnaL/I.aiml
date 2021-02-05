@@ -12020,7 +12020,7 @@ I like to watch
 </template></category>
 <category>
 <pattern>I LIVE IN *</pattern>
-<template>What is living in <set name="location"><person/></set>?
+<template>What is it like living in <set name="location"><person/></set>?
 <think><set name="it"><set name="topic"><person/></set></set></think>
 </template></category>
 <category>
