@@ -19,13 +19,35 @@ import os
 from os import listdir, remove as remove_file
 from os.path import dirname, isfile
 
-from mycroft.api import DeviceApi
+# from mycroft.api import DeviceApi
 from mycroft.skills.core import FallbackSkill
 from mycroft.skills.core import intent_handler
 from adapt.intent import IntentBuilder
 
 
 class WinstonFallback(FallbackSkill):
+
+    def converse(self, utterances, lang=None):
+        """Handle conversation.
+
+        This method gets a peek at utterances before the normal intent
+        handling process after a skill has been invoked once.
+
+        To use, override the converse() method and return True to
+        indicate that the utterance has been handled.
+
+        Arguments:
+            utterances (list): The utterances from the user.  If there are
+                               multiple utterances, consider them all to be
+                               transcription possibilities.  Commonly, the
+                               first entry is the user utt and the second
+                               is normalized() version of the first utterance
+            lang:       language the utterance is in, None for default
+
+        Returns:
+            bool: True if an utterance was handled, otherwise False
+        """
+        return True
 
     def __init__(self):
         super(WinstonFallback, self).__init__(name='WinstonFallback')

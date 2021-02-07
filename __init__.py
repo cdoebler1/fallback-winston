@@ -141,6 +141,8 @@ class WinstonFallback(FallbackSkill):
                         asked_question = True
                     self.speak(answer, expect_response=asked_question)
                     return True
+            else:
+                return False
         return False
 
     def shutdown(self):
