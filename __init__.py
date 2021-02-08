@@ -19,14 +19,13 @@ import os
 from os import listdir, remove as remove_file
 from os.path import dirname, isfile
 
+# from mycroft.api import DeviceApi
 from mycroft.skills.core import FallbackSkill
-from mycroft.skills.core import intent_handler, intent_file_handler
+from mycroft.skills.core import intent_handler
 from adapt.intent import IntentBuilder
 
 
 class WinstonFallback(FallbackSkill):
-
-    chatting = False
 
     def __init__(self):
         super(WinstonFallback, self).__init__(name='WinstonFallback')
@@ -94,34 +93,16 @@ class WinstonFallback(FallbackSkill):
         self.brain_loaded = False
         return
 
-    @intent_file_handler("start_parrot.intent")
-    def handle_start_parrot_intent(self, message):
-        self.chatting = True
-        self.speak_dialog("chat_start", expect_response=True)
-
-    @intent_file_handler("stop_parrot.intent")
-    def handle_stop_parrot_intent(self, message):
-        if self.chatting:
-            self.chatting = False
-            self.speak_dialog("chat_stop")
-        else:
-            self.speak_dialog("not_chatting")
-
-    def stop(self):
-        if self.chatting:
-            self.chatting = False
-            self.speak_dialog("chat_stop")
-            return True
-        return False
-
     def handle_fallback(self, message):
-        while self.chatting:
+        """Mycroft fallback handler interfacing the AIML.
+
+        If enabled in home, this will parse a sentence and return answer from
+        the AIML engine.
+        """
+        if self.settings.get("enabled"):
             if not self.brain_loaded:
                 self.load_brain()
             utterance = message.data.get("utterance")
-            if utterance == "stop chatting":
-                self.chatting = False
-                return False
             answer = self.ask_brain(utterance)
             if answer != "":
                 asked_question = False
@@ -129,22 +110,6 @@ class WinstonFallback(FallbackSkill):
                     asked_question = True
                 self.speak(answer, expect_response=asked_question)
                 return True
-            return True
-
-        if not self.chatting:
-            if self.settings.get("enabled"):
-                if not self.brain_loaded:
-                    self.load_brain()
-                utterance = message.data.get("utterance")
-                answer = self.ask_brain(utterance)
-                if answer != "":
-                    asked_question = False
-                    if answer.endswith("?"):
-                        asked_question = True
-                    self.speak(answer, expect_response=asked_question)
-                    return True
-            else:
-                return False
         return False
 
     def shutdown(self):
