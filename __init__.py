@@ -61,11 +61,12 @@ class WinstonFallback(FallbackSkill):
         self.kernel.setBotPredicate("hometown", "Bellefonte")
         self.kernel.setBotPredicate("botmaster", "master")
         self.kernel.setBotPredicate("master", "the community")
-        self.kernel.setBotPredicate("age", "20")
+        self.kernel.setBotPredicate("age", "1")
         self.kernel.setBotPredicate("location", "Bellefonte")
         self.kernel.setBotPredicate("sport", "boxing")
         self.kernel.setBotPredicate("favoritecolor", "green")
-        self.kernel.setBotPredicate("birthplace", "Lock Haven")
+        self.kernel.setBotPredicate("birthday",  "November 6, 2019")
+        self.kernel.setBotPredicate("birthplace", "Bellefonte, Pennsylvania")
         self.kernel.setBotPredicate("favoritefood", "tacos")
         self.brain_loaded = True
         return
