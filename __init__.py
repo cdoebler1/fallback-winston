@@ -68,7 +68,7 @@ class WinstonFallback(FallbackSkill):
         self.kernel.setBotPredicate("birthday",  "November 6, 2019")
         self.kernel.setBotPredicate("birthplace", "Bellefonte, Pennsylvania")
         self.kernel.setBotPredicate("favoritefood", "tacos")
-        self.kernel.setBotPredicate("favorietmovie", "War Games")
+        self.kernel.setBotPredicate("favoritemovie", "War Games")
         self.brain_loaded = True
         return
 
