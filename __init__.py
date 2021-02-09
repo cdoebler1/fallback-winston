@@ -17,7 +17,7 @@ class WinstonFallback(FallbackSkill):
         chatbot_variables = chatbot + ".json"
         local = dirname(__file__)
         self.aiml_path = join(local, chatbot)
-        self.brain_path = join(local, chatbot, chatbot_brain)
+        self.brain_path = join(self.file_system.path, chatbot_brain)
         self.variables_path = join(local, chatbot, chatbot_variables)
         self.brain_loaded = False
 
