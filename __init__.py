@@ -14,26 +14,29 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <http://www.gnu.org/licenses/>.
 
-import aiml
-import os
-from os import listdir, remove as remove_file
-from os.path import dirname, isfile
+from mycroft.skills.core import FallbackSkill, intent_handler
 
-# from mycroft.api import DeviceApi
-from mycroft.skills.core import FallbackSkill
-from mycroft.skills.core import intent_handler
+from aiml import Kernel
+from os import listdir, remove as remove_file
+from os.path import dirname, isfile, join
+
 from adapt.intent import IntentBuilder
+from fnmatch import filter
+import json
 
 
 class WinstonFallback(FallbackSkill):
 
     def __init__(self):
         super(WinstonFallback, self).__init__(name='WinstonFallback')
-        self.kernel = aiml.Kernel()
-        chatbot_brain = self.settings.get('chatbot_brain', 'AnnaL')
-        self.aiml_path = os.path.join(dirname(__file__), chatbot_brain)
-        self.brain_path = os.path.join(self.file_system.path,
-                                       chatbot_brain+'.brn')
+        self.kernel = Kernel()
+        chatbot = self.settings.get('chatbot_brain', 'Winston')
+        chatbot_brain = chatbot + ".brn"
+        chatbot_variables = chatbot + ".json"
+        self.aiml_path = join(dirname(__file__), chatbot)
+        self.brain_path = join(dirname(__file__), chatbot, chatbot_brain)
+        self.variables_path = join(dirname(__file__), chatbot,
+                                   chatbot_variables)
         self.brain_loaded = False
 
     def initialize(self):
@@ -46,29 +49,17 @@ class WinstonFallback(FallbackSkill):
         if isfile(self.brain_path):
             self.kernel.bootstrap(brainFile=self.brain_path)
         else:
-            aimls = listdir(self.aiml_path)
+            aimls = filter(listdir(self.aiml_path), "*.aiml")
             for aiml_file in aimls:
-                self.kernel.learn(os.path.join(self.aiml_path, aiml_file))
+                self.kernel.learn(join(self.aiml_path, aiml_file))
             self.kernel.saveBrain(self.brain_path)
 
-        self.kernel.setBotPredicate("name", "Winston")
-        self.kernel.setBotPredicate("species", "animatronic")
-        self.kernel.setBotPredicate("genus", "Mycroft")
-        self.kernel.setBotPredicate("family", "virtual personal assistant")
-        self.kernel.setBotPredicate("order", "artificial intelligence")
-        self.kernel.setBotPredicate("class", "computer program")
-        self.kernel.setBotPredicate("kingdom", "machine")
-        self.kernel.setBotPredicate("hometown", "Bellefonte")
-        self.kernel.setBotPredicate("botmaster", "master")
-        self.kernel.setBotPredicate("master", "the community")
-        self.kernel.setBotPredicate("age", "1")
-        self.kernel.setBotPredicate("location", "Bellefonte")
-        self.kernel.setBotPredicate("sport", "boxing")
-        self.kernel.setBotPredicate("favoritecolor", "green")
-        self.kernel.setBotPredicate("birthday",  "November 6, 2019")
-        self.kernel.setBotPredicate("birthplace", "Bellefonte, Pennsylvania")
-        self.kernel.setBotPredicate("favoritefood", "tacos")
-        self.kernel.setBotPredicate("favoritemovie", "War Games")
+        with open(self.variables_path) as f:
+            variables = json.load(f)
+
+        for key, value in variables.items():
+            self.kernel.setBotPredicate(key, value)
+
         self.brain_loaded = True
         return
 

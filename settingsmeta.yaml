@@ -5,10 +5,10 @@ skillMetadata:
       fields:
         - type: select
           name: chatbot_brain
-          label: Botbrain
-          options: Alice|alice;Anna|Anna;AnnaL|AnnaL
-          value: AnnaL
+          label: Chatbot Name
+          options: Winston|Winston;Alice|Alice;Anna|Anna;AnnaL|AnnaL
+          value: Winston
         - type: checkbox
-          label: Enable chatbot as fallback skill
           name: enabled
+          label: Enable chatbot as fallback skill
           value: "false"
