@@ -1,26 +1,8 @@
-# fallback-aiml
-# Copyright (C) 2017  Mycroft AI
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program. If not, see <http://www.gnu.org/licenses/>.
-
 from mycroft.skills.core import FallbackSkill, intent_handler
 
 from aiml import Kernel
 from os import listdir, remove as remove_file
 from os.path import dirname, isfile, join
-
-from adapt.intent import IntentBuilder
 from fnmatch import filter
 import json
 
@@ -33,10 +15,10 @@ class WinstonFallback(FallbackSkill):
         chatbot = self.settings.get('chatbot_brain', 'Winston')
         chatbot_brain = chatbot + ".brn"
         chatbot_variables = chatbot + ".json"
-        self.aiml_path = join(dirname(__file__), chatbot)
-        self.brain_path = join(dirname(__file__), chatbot, chatbot_brain)
-        self.variables_path = join(dirname(__file__), chatbot,
-                                   chatbot_variables)
+        local = dirname(__file__)
+        self.aiml_path = join(local, chatbot)
+        self.brain_path = join(local, chatbot, chatbot_brain)
+        self.variables_path = join(local, chatbot, chatbot_variables)
         self.brain_loaded = False
 
     def initialize(self):
@@ -63,13 +45,11 @@ class WinstonFallback(FallbackSkill):
         self.brain_loaded = True
         return
 
-    @intent_handler(IntentBuilder("ResetMemoryIntent").require("Reset")
-                                                      .require("Memory"))
+    @intent_handler('reset.intent')
     def handle_reset_brain(self, message):
         """Delete the stored memory, effectively resetting the brain state."""
         self.log.debug('Deleting brain file')
-        # delete the brain file and reset memory
-        self.speak_dialog("reset.memory")
+        self.speak_dialog("reset")
         remove_file(self.brain_path)
         self.soft_reset_brain()
         return
@@ -81,17 +61,13 @@ class WinstonFallback(FallbackSkill):
         return response
 
     def soft_reset_brain(self):
-        # Only reset the active kernel memory
+        """Only reset the active kernel memory"""
         self.kernel.resetBrain()
         self.brain_loaded = False
         return
 
     def handle_fallback(self, message):
-        """Mycroft fallback handler interfacing the AIML.
-
-        If enabled in home, this will parse a sentence and return answer from
-        the AIML engine.
-        """
+        """Mycroft fallback handler interfacing the AIML."""
         if self.settings.get("enabled"):
             if not self.brain_loaded:
                 self.load_brain()
